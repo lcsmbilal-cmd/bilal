@@ -1,0 +1,223 @@
+{
+  "entities": {
+    "Product": {
+      "title": "Product",
+      "description": "E-commerce product item in the store catalog",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "title": { "type": "string" },
+        "slug": { "type": "string" },
+        "sku": { "type": "string" },
+        "categoryId": { "type": "string" },
+        "category": { "type": "string" },
+        "headline": { "type": "string" },
+        "badge": { "type": "string" },
+        "rating": { "type": "number" },
+        "reviewCount": { "type": "number" },
+        "shortDescription": { "type": "string" },
+        "regularPrice": { "type": "number" },
+        "salePrice": { "type": "number" },
+        "currency": { "type": "string" },
+        "images": { "type": "array" },
+        "benefits": { "type": "array" },
+        "features": { "type": "array" },
+        "specifications": { "type": "object" },
+        "whatsInTheBox": { "type": "array" },
+        "usageInstructions": { "type": "array" },
+        "variants": { "type": "array" },
+        "stockCount": { "type": "number" },
+        "lowStockThreshold": { "type": "number" },
+        "status": { "type": "string" },
+        "createdAt": { "type": "string" },
+        "updatedAt": { "type": "string" }
+      },
+      "required": ["id", "title", "salePrice", "status"]
+    },
+    "Category": {
+      "title": "Category",
+      "description": "Product category",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "name": { "type": "string" },
+        "slug": { "type": "string" },
+        "productCount": { "type": "number" }
+      },
+      "required": ["id", "name"]
+    },
+    "Order": {
+      "title": "Order",
+      "description": "Customer order placed on the store",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "orderNumber": { "type": "string" },
+        "customer": { "type": "object" },
+        "item": { "type": "object" },
+        "payment": { "type": "object" },
+        "status": { "type": "string" },
+        "createdAt": { "type": "string" }
+      },
+      "required": ["id", "orderNumber", "customer", "item", "payment", "status"]
+    },
+    "StoreSettings": {
+      "title": "StoreSettings",
+      "description": "Global store configuration, branding, delivery rates, and contact info",
+      "type": "object",
+      "properties": {
+        "storeName": { "type": "string" },
+        "tagline": { "type": "string" },
+        "contactPhone": { "type": "string" },
+        "whatsappNumber": { "type": "string" },
+        "standardDeliveryCharge": { "type": "number" },
+        "freeDeliveryThreshold": { "type": "number" }
+      },
+      "required": ["storeName"]
+    },
+    "ProductBenefit": {
+      "title": "ProductBenefit",
+      "description": "Custom key benefits and bullet highlights per product",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "productId": { "type": "string" },
+        "text": { "type": "string" },
+        "enabled": { "type": "boolean" },
+        "displayOrder": { "type": "number" },
+        "createdAt": { "type": "string" },
+        "updatedAt": { "type": "string" }
+      },
+      "required": ["id", "productId", "text", "enabled", "displayOrder"]
+    },
+    "ProductHandlingContent": {
+      "title": "ProductHandlingContent",
+      "description": "Product-specific handling content, deep dive, buyer protection, benefits, and stories",
+      "type": "object",
+      "properties": {
+        "productId": { "type": "string" },
+        "sku": { "type": "string" },
+        "deepDiveBadge": { "type": "string" },
+        "mainHeading": { "type": "string" },
+        "mainDescription": { "type": "string" },
+        "buyerProtectionHeading": { "type": "string" },
+        "buyerProtectionDescription": { "type": "string" },
+        "benefitsHeading": { "type": "string" },
+        "benefits": { "type": "array" },
+        "storyHeading": { "type": "string" },
+        "storyDescription": { "type": "string" },
+        "safetyHeading": { "type": "string" },
+        "safetyDescription": { "type": "string" },
+        "guaranteeText": { "type": "string" },
+        "deliveryText": { "type": "string" },
+        "ctaText": { "type": "string" },
+        "customSections": { "type": "array" },
+        "createdAt": { "type": "string" },
+        "updatedAt": { "type": "string" },
+        "deletedAt": { "type": "string" }
+      },
+      "required": ["productId"]
+    },
+    "PerformanceMetric": {
+      "title": "PerformanceMetric",
+      "description": "Storefront initial load and performance metric telemetry",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "timestamp": { "type": "string" },
+        "page": { "type": "string" },
+        "initialLoadTimeMs": { "type": "number" },
+        "apiLatencyMs": { "type": "number" },
+        "apiPayloadSizeBytes": { "type": "number" },
+        "imageLoadTimeMs": { "type": "number" },
+        "imageCount": { "type": "number" },
+        "slowestImageName": { "type": "string" },
+        "slowestImageTimeMs": { "type": "number" },
+        "totalImageSizeBytes": { "type": "number" },
+        "imagesDetail": { "type": "array" },
+        "resourcesSummary": { "type": "object" },
+        "ttfbMs": { "type": "number" },
+        "domContentLoadedMs": { "type": "number" },
+        "thresholdMs": { "type": "number" },
+        "exceeded": { "type": "boolean" },
+        "userAgent": { "type": "string" }
+      },
+      "required": ["id", "timestamp", "initialLoadTimeMs", "thresholdMs"]
+    },
+    "Analytics": {
+      "title": "Analytics",
+      "description": "Storefront visit counters, action clicks, and inquiries",
+      "type": "object",
+      "properties": {
+        "page_views": { "type": "number" },
+        "total_inquiries": { "type": "number" },
+        "action_clicks": { "type": "number" },
+        "cod_clicks": { "type": "number" },
+        "whatsapp_clicks": { "type": "number" },
+        "updatedAt": { "type": "string" }
+      }
+    }
+  },
+  "firestore": {
+    "/analytics/{docId}": {
+      "schema": "Analytics",
+      "description": "Storefront visits and action counters"
+    },
+    "/products/{productId}": {
+      "schema": "Product",
+      "description": "Collection of store products"
+    },
+    "/productHandlingTexts/{productId}": {
+      "schema": "ProductHandlingContent",
+      "description": "Product-specific handling content and descriptions"
+    },
+    "/product_benefits/{benefitId}": {
+      "schema": "ProductBenefit",
+      "description": "Product benefits associated with productId"
+    },
+    "/categories/{categoryId}": {
+      "schema": "Category",
+      "description": "Collection of product categories"
+    },
+    "/orders/{orderId}": {
+      "schema": "Order",
+      "description": "Collection of customer orders"
+    },
+    "/settings/{settingId}": {
+      "schema": "StoreSettings",
+      "description": "Store settings and configurations"
+    },
+    "/reviews/{reviewId}": {
+      "schema": "object",
+      "description": "Customer reviews"
+    },
+    "/faqs/{faqId}": {
+      "schema": "object",
+      "description": "Frequently asked questions"
+    },
+    "/homepageSections/{sectionId}": {
+      "schema": "object",
+      "description": "Homepage section configurations"
+    },
+    "/banners/{bannerId}": {
+      "schema": "object",
+      "description": "Promotional banners"
+    },
+    "/inventoryMovements/{movementId}": {
+      "schema": "object",
+      "description": "Stock audit logs"
+    },
+    "/notifications/{notificationId}": {
+      "schema": "object",
+      "description": "System admin notifications"
+    },
+    "/adminUsers/{userId}": {
+      "schema": "object",
+      "description": "Admin accounts"
+    },
+    "/performanceMetrics/{metricId}": {
+      "schema": "PerformanceMetric",
+      "description": "Storefront load performance records"
+    }
+  }
+}

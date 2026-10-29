@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 750 1050" width="750" height="1050">
+  <defs>
+    <filter id="cardShadow" x="-10%" y="-5%" width="120%" height="115%">
+      <feDropShadow dx="0" dy="6" stdDeviation="12" flood-color="#000000" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <!-- Golden Yellow Stand Background -->
+  <rect width="750" height="1050" rx="28" fill="#FED100"/>
+
+  <!-- Top White Pill Container -->
+  <g filter="url(#cardShadow)">
+    <rect x="195" y="45" width="360" height="120" rx="60" fill="#FFFFFF"/>
+  </g>
+
+  <!-- JazzCash Logo (Left side of Pill) -->
+  <g transform="translate(245, 60)">
+    <!-- JazzCash Petals -->
+    <g transform="translate(26, 0)">
+      <!-- Left Petal (Red) -->
+      <path d="M14 36 C5 36 0 28 0 18 C0 8 8 0 16 0 C24 0 30 7 30 18 C30 29 23 36 14 36 Z" fill="#E51937"/>
+      <!-- Right Petal (Gold/Orange) -->
+      <path d="M26 36 C35 36 42 29 42 18 C42 8 36 0 28 0 C19 0 12 7 12 18 C12 28 17 36 26 36 Z" fill="#FFA800" opacity="0.95"/>
+    </g>
+    <!-- JazzCash Wordmark -->
+    <text x="47" y="58" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="23" font-weight="900" fill="#111827" text-anchor="middle" letter-spacing="-0.5">JazzCash</text>
+  </g>
+
+  <!-- Vertical Divider in Pill -->
+  <line x1="375" y1="65" x2="375" y2="145" stroke="#E5E7EB" stroke-width="1.5"/>
+
+  <!-- Raast Logo (Right side of Pill) -->
+  <g transform="translate(415, 60)">
+    <!-- Raast Monument Icon -->
+    <g transform="translate(18, 0)">
+      <!-- Dome / Roof -->
+      <path d="M28 2 L32 2 C38 6 46 10 50 14 L10 14 C14 10 22 6 28 2 Z" fill="#006838"/>
+      <!-- SBP Banner -->
+      <rect x="8" y="14" width="44" height="8" fill="#006838"/>
+      <text x="30" y="20" font-family="sans-serif" font-size="3.5" font-weight="900" fill="#FFFFFF" text-anchor="middle" letter-spacing="0.2">STATE BANK OF PAKISTAN</text>
+      <!-- Columns & Blue Blocks Base -->
+      <rect x="8" y="23" width="44" height="15" fill="#006838"/>
+      <!-- White Arch Openings -->
+      <rect x="13" y="27" width="8" height="11" rx="2" fill="#FFFFFF"/>
+      <rect x="26" y="27" width="8" height="11" rx="2" fill="#FFFFFF"/>
+      <rect x="39" y="27" width="8" height="11" rx="2" fill="#FFFFFF"/>
+      <!-- Blue square blocks -->
+      <rect x="14" y="28" width="6" height="6" fill="#00AEEF"/>
+      <rect x="27" y="28" width="6" height="6" fill="#00AEEF"/>
+      <rect x="40" y="28" width="6" height="6" fill="#00AEEF"/>
+    </g>
+    <!-- Raast Wordmark -->
+    <text x="48" y="60" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="28" font-weight="900" fill="#9C1C26" text-anchor="middle">Raast</text>
+  </g>
+
+  <!-- Business Name: Ammi Express -->
+  <text x="375" y="228" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="44" font-weight="800" fill="#111827" text-anchor="middle" letter-spacing="-0.8">Ammi Express</text>
+
+  <!-- Center White QR Container Box -->
+  <rect x="155" y="290" width="440" height="440" rx="24" fill="#FFFFFF" stroke="#111827" stroke-width="2.5"/>
+
+  <!-- Scannable Authentic QR Code Matrix -->
+  <svg x="175" y="310" width="400" height="400" viewBox="0 0 49 49" shape-rendering="crispEdges">
+    <path fill="#ffffff" d="M0 0h49v49H0z"/><path stroke="#000000" d="M4 4.5h7m1 0h1m1 0h3m3 0h1m1 0h1m3 0h1m1 0h1m2 0h1m6 0h7M4 5.5h1m5 0h1m1 0h1m1 0h2m2 0h2m1 0h1m1 0h4m1 0h1m1 0h4m1 0h1m2 0h1m5 0h1M4 6.5h1m1 0h3m1 0h1m2 0h1m2 0h2m1 0h2m1 0h2m1 0h3m1 0h2m1 0h1m1 0h1m3 0h1m1 0h3m1 0h1M4 7.5h1m1 0h3m1 0h1m1 0h1m3 0h1m5 0h2m1 0h3m3 0h2m1 0h1m1 0h1m1 0h1m1 0h3m1 0h1M4 8.5h1m1 0h3m1 0h1m2 0h1m2 0h1m4 0h3m9 0h1m1 0h1m2 0h1m1 0h3m1 0h1M4 9.5h1m5 0h1m5 0h2m1 0h1m6 0h1m4 0h1m1 0h1m1 0h1m2 0h1m5 0h1M4 10.5h7m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h7M12 11.5h3m1 0h1m7 0h1m1 0h4m3 0h1M4 12.5h1m1 0h2m1 0h3m1 0h2m2 0h2m1 0h2m2 0h5m2 0h1m6 0h1m2 0h1m1 0h2M6 13.5h3m3 0h3m1 0h4m1 0h1m1 0h1m2 0h3m1 0h1m2 0h2m2 0h1m2 0h1m3 0h1M4 14.5h3m1 0h1m1 0h2m2 0h1m1 0h2m5 0h2m3 0h3m1 0h1m2 0h4m3 0h1M8 15.5h2m2 0h2m1 0h1m1 0h4m2 0h1m7 0h1m3 0h1m1 0h2m1 0h2M4 16.5h1m1 0h5m9 0h1m1 0h1m2 0h1m1 0h1m1 0h1m1 0h1m4 0h1m1 0h1m4 0h2M5 17.5h1m2 0h1m4 0h6m1 0h2m4 0h2m4 0h3m1 0h1m2 0h1m3 0h2M8 18.5h1m1 0h1m1 0h3m2 0h5m3 0h2m1 0h2m1 0h3m1 0h1m1 0h3m1 0h2M4 19.5h1m1 0h2m4 0h1m2 0h12m1 0h3m1 0h1m4 0h1m1 0h1m3 0h1M5 20.5h1m1 0h1m1 0h2m1 0h3m3 0h1m4 0h2m2 0h1m2 0h3m3 0h3m1 0h1m1 0h1M4 21.5h3m2 0h1m1 0h1m1 0h2m2 0h2m2 0h4m1 0h1m4 0h3m1 0h1m1 0h2m2 0h1m1 0h2M5 22.5h2m2 0h2m1 0h1m1 0h2m1 0h3m1 0h1m2 0h2m3 0h2m1 0h2m1 0h4m2 0h2M5 23.5h1m1 0h2m5 0h3m2 0h1m3 0h2m1 0h1m2 0h2m3 0h3m2 0h4M4 24.5h1m2 0h4m1 0h2m1 0h1m1 0h4m1 0h2m2 0h2m1 0h3m1 0h1m1 0h1m1 0h2m2 0h2M5 25.5h1m1 0h2m2 0h2m2 0h1m1 0h2m1 0h3m1 0h1m1 0h2m3 0h1m1 0h2m3 0h3m2 0h1M4 26.5h2m1 0h2m1 0h1m1 0h3m3 0h1m2 0h1m1 0h1m4 0h2m1 0h3m6 0h3M7 27.5h1m3 0h1m1 0h1m4 0h1m2 0h2m3 0h1m3 0h2m4 0h1m5 0h3M4 28.5h1m1 0h6m2 0h6m1 0h2m1 0h2m3 0h1m2 0h3m2 0h1m2 0h1m1 0h1M5 29.5h1m1 0h1m1 0h1m2 0h1m1 0h3m1 0h1m1 0h5m1 0h1m2 0h1m3 0h3m2 0h1m3 0h2M5 30.5h4m1 0h6m2 0h1m1 0h1m1 0h3m1 0h1m1 0h1m1 0h2m3 0h2m1 0h3m1 0h3M4 31.5h1m2 0h1m1 0h1m2 0h3m1 0h3m2 0h1m3 0h3m2 0h5m2 0h1m5 0h2M6 32.5h2m1 0h2m4 0h3m1 0h2m1 0h2m3 0h1m1 0h1m3 0h3m2 0h2m4 0h1M6 33.5h1m2 0h1m1 0h1m2 0h1m1 0h2m2 0h1m2 0h1m1 0h2m1 0h3m1 0h4m1 0h4M4 34.5h1m1 0h1m1 0h3m1 0h3m4 0h1m1 0h2m1 0h1m2 0h2m2 0h1m1 0h2m2 0h1m2 0h2m1 0h1M13 35.5h2m2 0h6m1 0h1m1 0h1m1 0h2m4 0h1m1 0h1m3 0h4M5 36.5h3m1 0h3m1 0h1m3 0h3m1 0h3m2 0h3m7 0h5m1 0h3M12 37.5h1m1 0h3m1 0h2m2 0h1m1 0h1m1 0h1m3 0h2m4 0h1m3 0h1m1 0h2M4 38.5h7m1 0h1m4 0h1m1 0h3m3 0h3m2 0h3m3 0h1m1 0h1m1 0h2M4 39.5h1m5 0h1m1 0h1m1 0h1m1 0h1m1 0h3m1 0h1m2 0h3m1 0h5m2 0h1m3 0h1M4 40.5h1m1 0h3m1 0h1m2 0h1m4 0h1m1 0h1m1 0h2m1 0h3m5 0h8m1 0h3M4 41.5h1m1 0h3m1 0h1m1 0h2m2 0h1m2 0h1m1 0h3m3 0h1m1 0h1m1 0h2m1 0h2m2 0h2M4 42.5h1m1 0h3m1 0h1m1 0h3m1 0h1m1 0h1m2 0h2m1 0h2m9 0h2m1 0h1m5 0h1M4 43.5h1m5 0h1m4 0h1m1 0h4m1 0h1m2 0h4m1 0h1m3 0h2m1 0h1m2 0h2M4 44.5h7m1 0h1m3 0h1m3 0h1m4 0h1m1 0h2m1 0h1m1 0h1m5 0h1m3 0h1"/>
+
+  </svg>
+
+  <!-- TILL ID Header -->
+  <text x="375" y="775" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="30" font-weight="900" fill="#E51937" text-anchor="middle" letter-spacing="2">TILL ID</text>
+
+  <!-- TILL ID 9 Digit Boxes (9 8 4 2 1 0 5 7 3) -->
+  
+      <g transform="translate(101, 800)">
+        <rect width="52" height="58" rx="10" fill="#FFFFFF" stroke="#111827" stroke-width="2"/>
+        <text x="26" y="42" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="38" font-weight="900" fill="#111827" text-anchor="middle">9</text>
+      </g>
+    
+      <g transform="translate(163, 800)">
+        <rect width="52" height="58" rx="10" fill="#FFFFFF" stroke="#111827" stroke-width="2"/>
+        <text x="26" y="42" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="38" font-weight="900" fill="#111827" text-anchor="middle">8</text>
+      </g>
+    
+      <g transform="translate(225, 800)">
+        <rect width="52" height="58" rx="10" fill="#FFFFFF" stroke="#111827" stroke-width="2"/>
+        <text x="26" y="42" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="38" font-weight="900" fill="#111827" text-anchor="middle">4</text>
+      </g>
+    
+      <g transform="translate(287, 800)">
+        <rect width="52" height="58" rx="10" fill="#FFFFFF" stroke="#111827" stroke-width="2"/>
+        <text x="26" y="42" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="38" font-weight="900" fill="#111827" text-anchor="middle">2</text>
+      </g>
+    
+      <g transform="translate(349, 800)">
+        <rect width="52" height="58" rx="10" fill="#FFFFFF" stroke="#111827" stroke-width="2"/>
+        <text x="26" y="42" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="38" font-weight="900" fill="#111827" text-anchor="middle">1</text>
+      </g>
+    
+      <g transform="translate(411, 800)">
+        <rect width="52" height="58" rx="10" fill="#FFFFFF" stroke="#111827" stroke-width="2"/>
+        <text x="26" y="42" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="38" font-weight="900" fill="#111827" text-anchor="middle">0</text>
+      </g>
+    
+      <g transform="translate(473, 800)">
+        <rect width="52" height="58" rx="10" fill="#FFFFFF" stroke="#111827" stroke-width="2"/>
+        <text x="26" y="42" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="38" font-weight="900" fill="#111827" text-anchor="middle">5</text>
+      </g>
+    
+      <g transform="translate(535, 800)">
+        <rect width="52" height="58" rx="10" fill="#FFFFFF" stroke="#111827" stroke-width="2"/>
+        <text x="26" y="42" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="38" font-weight="900" fill="#111827" text-anchor="middle">7</text>
+      </g>
+    
+      <g transform="translate(597, 800)">
+        <rect width="52" height="58" rx="10" fill="#FFFFFF" stroke="#111827" stroke-width="2"/>
+        <text x="26" y="42" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="38" font-weight="900" fill="#111827" text-anchor="middle">3</text>
+      </g>
+    
+
+  <!-- USSD Payment Dial Instructions -->
+  <text x="375" y="890" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#111827" text-anchor="middle">
+    Dial *786*10# and enter TILL ID to pay via JazzCash account.
+  </text>
+
+  <!-- Bottom Hero Footer -->
+  <text x="375" y="948" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="28" font-weight="900" text-anchor="middle" letter-spacing="0.5">
+    <tspan fill="#E51937">QR PAYMENTS </tspan>
+    <tspan fill="#111827">ACCEPTED HERE</tspan>
+  </text>
+</svg>

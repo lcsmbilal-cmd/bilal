@@ -1,0 +1,1922 @@
+{
+  "adminUsers": [
+    {
+      "role": "super_admin",
+      "id": "admin-01",
+      "username": "admin Bilal",
+      "email": "ammiexpresssupport@gmail.com",
+      "salt": "ammiexpress_salt_2025",
+      "updatedAt": "2026-09-28T14:47:20.419Z",
+      "passwordHash": "d484b1722efc81dc89678016c5f66eb97bdc8c30fe281bc9236d73c7aac546d2e4edca9712280874b0b514c4e6566dea63a0b0169f377c7d32211f096719d846",
+      "lastLoginAt": "2026-09-30T13:17:14.918Z"
+    }
+  ],
+  "products": [
+    {
+      "costPrice": 600,
+      "reviewCount": 0,
+      "updatedAt": "2026-10-12T13:21:32.717Z",
+      "handlingContent": {
+        "mainDescription": "Discover effortless beauty with the Ammi Express 2-in-1 Eyebrow Trimmer & Facial Hair Remover. Designed for convenient everyday grooming, this compact beauty essential helps you shape your eyebrows and remove unwanted facial hair with ease. Its stylish design makes it a practical addition to your beauty routine at home or while travelling. Enjoy a neat, polished look with one convenient grooming tool — now available for just Rs. 1,199!",
+        "customSections": [],
+        "deletedAt": null,
+        "updatedAt": "2026-10-11T16:36:17.532Z",
+        "sku": "SKU: PTW-001",
+        "guaranteeText": "",
+        "mainHeading": "Why You'll Love Our 2-in-1 Beauty Trimmer",
+        "buyerProtectionHeading": "Shop with Confidence at Ammi Express",
+        "benefitsHeading": "Your Everyday Beauty Benefits",
+        "deliveryText": "",
+        "deepDiveBadge": "✨ 2-IN-1 BEAUTY ESSENTIAL",
+        "storyHeading": "Your Everyday Beauty Essential",
+        "storyDescription": "Meet your new everyday beauty companion from Ammi Express! Our 2-in-1 Eyebrow Trimmer & Facial Hair Remover is designed to make your personal grooming routine simple and convenient. Whether you want to tidy up your eyebrows or remove unwanted facial hair, this compact beauty tool brings two grooming functions together in one stylish design. Easy to carry and convenient for everyday touch-ups, it fits effortlessly into your beauty routine at home or while travelling. Enjoy a polished look with less hassle and more convenience — all for just Rs. 1,199!",
+        "benefitsSection": {
+          "eyebrow": "YOUR DAILY BEAUTY ESSENTIAL",
+          "heading": "Your Beauty Routine, Made Effortless",
+          "description": "Enjoy effortless eyebrow shaping and facial hair removal with our 2-in-1 beauty essential. Compact, convenient, and easy to use — your everyday partner for a polished look, wherever you go. 💖"
+        },
+        "safetyDescription": "At Ammi Express, we believe your beauty routine should be simple and convenient. Our 2-in-1 Eyebrow Trimmer & Facial Hair Remover is designed for everyday personal grooming. For the best experience, read the product instructions before use, handle the grooming head carefully, and use the device gently on the intended areas. Keep the device clean and store it safely after use. Choose Ammi Express for a convenient addition to your daily beauty routine.",
+        "productId": "prod-ammi-1790844044142",
+        "safetyHeading": "Your Beauty, Our Priority",
+        "buyerProtectionDescription": "At Ammi Express, your satisfaction matters to us. We carefully prepare your order and aim to provide a smooth, reliable shopping experience. Enjoy the convenience of Cash on Delivery (COD), so you can pay when your order arrives. For assistance with your order, delivery, or product concerns, please contact our customer support team. We are here to help make your shopping experience easy and worry-free.",
+        "createdAt": "2026-10-01T08:40:44.142Z",
+        "ctaText": "",
+        "benefits": [
+          {
+            "enabled": true,
+            "id": "ben-1790843498957-275",
+            "displayOrder": 1,
+            "title": "2-in-1 Beauty Solution",
+            "icon": "Heart",
+            "description": "Shape your eyebrows and remove unwanted facial hair with one convenient beauty tool. Simplify your everyday grooming routine with Ammi Express.",
+            "text": "Complete Travel Organization"
+          },
+          {
+            "displayOrder": 2,
+            "description": "Enjoy a simple grooming routine at home whenever you need a quick beauty touch-up. Designed for convenient everyday personal care.",
+            "title": "Easy & Convenient Grooming",
+            "id": "ben-1790843525349-342",
+            "icon": "Star",
+            "text": "Multiple Compartments",
+            "enabled": true
+          },
+          {
+            "id": "ben-1790843566141-770",
+            "enabled": true,
+            "description": "Its compact design makes it easy to carry in your handbag or travel pouch, so your beauty essential is always within reach.",
+            "icon": "CheckCircle2",
+            "title": "Compact & Travel-Friendly",
+            "displayOrder": 3,
+            "text": "Durable & Stylish Design"
+          },
+          {
+            "title": "Your Beauty, Your Confidence",
+            "displayOrder": 4,
+            "enabled": true,
+            "id": "ben-1790843601380-887",
+            "icon": "BatteryCharging",
+            "description": "Keep your personal grooming routine simple and convenient. Enjoy a neat, well-groomed look at home, at work, or while travelling.",
+            "text": "Compact & Travel-Friendly"
+          }
+        ]
+      },
+      "lowStockThreshold": 10,
+      "publishedAt": "2026-10-01T08:41:02.972Z",
+      "images": [
+        "/uploads/products-1791734408252-lsvxzr4-2-in-1-glitter-beauty-ess.jpg",
+        "/uploads/products-1791734413839-qt2i1rd-ammi-express-2-in-1-beaut.jpg",
+        "/uploads/products-1791734419684-en6ag94-2-in-1-beauty-trimmer-ess.jpg",
+        "/uploads/products-1791734426181-m8p6xsu-ammi-express-beauty-trimm.jpg",
+        "/uploads/products-1791734432622-xfie7wq-rose-gold-2-in-1-trimmer-.jpg"
+      ],
+      "shortDescription": "Get perfectly shaped brows and smooth facial skin with one compact beauty device! The 2-in-1 Eyebrow Trimmer & Facial Hair Remover makes your daily grooming routine quick, easy, and convenient — anytime, anywhere. 💖",
+      "stockCount": 50,
+      "productVideoLink": "https://youtube.com/shorts/nYe99dYD8p0?feature=share",
+      "benefits": [
+        {
+          "createdAt": "2026-10-11T16:36:15.580Z",
+          "id": "ben-1790843498957-275",
+          "productId": "prod-ammi-1790844044142",
+          "enabled": true,
+          "text": "Complete Travel Organization",
+          "updatedAt": "2026-10-11T16:36:15.580Z",
+          "icon": "Heart",
+          "description": "Shape your eyebrows and remove unwanted facial hair with one convenient beauty tool. Simplify your everyday grooming routine with Ammi Express.",
+          "displayOrder": 1,
+          "title": "2-in-1 Beauty Solution"
+        },
+        {
+          "updatedAt": "2026-10-11T16:36:15.581Z",
+          "icon": "Star",
+          "text": "Multiple Compartments",
+          "title": "Easy & Convenient Grooming",
+          "description": "Enjoy a simple grooming routine at home whenever you need a quick beauty touch-up. Designed for convenient everyday personal care.",
+          "enabled": true,
+          "displayOrder": 2,
+          "createdAt": "2026-10-11T16:36:15.581Z",
+          "id": "ben-1790843525349-342",
+          "productId": "prod-ammi-1790844044142"
+        },
+        {
+          "updatedAt": "2026-10-11T16:36:15.581Z",
+          "icon": "CheckCircle2",
+          "description": "Its compact design makes it easy to carry in your handbag or travel pouch, so your beauty essential is always within reach.",
+          "title": "Compact & Travel-Friendly",
+          "text": "Durable & Stylish Design",
+          "enabled": true,
+          "displayOrder": 3,
+          "createdAt": "2026-10-11T16:36:15.581Z",
+          "id": "ben-1790843566141-770",
+          "productId": "prod-ammi-1790844044142"
+        },
+        {
+          "description": "Keep your personal grooming routine simple and convenient. Enjoy a neat, well-groomed look at home, at work, or while travelling.",
+          "icon": "BatteryCharging",
+          "text": "Compact & Travel-Friendly",
+          "createdAt": "2026-10-11T16:36:15.581Z",
+          "title": "Your Beauty, Your Confidence",
+          "enabled": true,
+          "displayOrder": 4,
+          "productId": "prod-ammi-1790844044142",
+          "updatedAt": "2026-10-11T16:36:15.581Z",
+          "id": "ben-1790843601380-887"
+        }
+      ],
+      "specifications": [
+        {
+          "value": "2-in-1 Eyebrow Trimmer & Facial Hair Remover",
+          "label": "Product Name"
+        },
+        {
+          "value": "Personal Care & Beauty Tool",
+          "label": "Product Type"
+        },
+        {
+          "value": "Eyebrow Shaping & Facial Hair Removal",
+          "label": "Main Use"
+        },
+        {
+          "value": "Compact & Portable",
+          "label": "Design"
+        },
+        {
+          "value": "Everyday Personal Grooming",
+          "label": "Usage"
+        },
+        {
+          "value": "Women",
+          "label": "Suitable For"
+        },
+        {
+          "value": "Easy to Carry in a Handbag",
+          "label": "Portability"
+        },
+        {
+          "value": "Ammi Express",
+          "label": "Brand"
+        }
+      ],
+      "regularPrice": 1550,
+      "salePrice": 1199,
+      "isFeatured": true,
+      "detailedDescription": {
+        "bulletPoints": [
+          "High durability",
+          "Easy to clean",
+          "Premium Pakistani household essential"
+        ],
+        "sections": [],
+        "intro": "",
+        "highlightBox": "⭐ 100% Genuine Quality Guarantee by Ammi Express"
+      },
+      "currency": "Rs.",
+      "rating": 5,
+      "status": "published",
+      "variants": [
+        {
+          "inStock": false,
+          "name": "Grey",
+          "colorCode": "#ff1493",
+          "id": "v-1790843964403"
+        }
+      ],
+      "id": "prod-ammi-1790844044142",
+      "title": "2-in-1 Eyebrow Trimmer & Facial Hair Remover for Women",
+      "createdAt": "2026-10-01T08:40:44.142Z",
+      "benefitsSection": {
+        "description": "Enjoy effortless eyebrow shaping and facial hair removal with our 2-in-1 beauty essential. Compact, convenient, and easy to use — your everyday partner for a polished look, wherever you go. 💖",
+        "heading": "Your Beauty Routine, Made Effortless",
+        "eyebrow": "YOUR DAILY BEAUTY ESSENTIAL"
+      },
+      "badge": "✨ BESTSELLER • 2-IN-1 BEAUTY ESSENTIAL",
+      "howItWorks": [],
+      "videoUrl": "https://youtube.com/shorts/nYe99dYD8p0?feature=share",
+      "features": [
+        {
+          "title": "High-Power Motor",
+          "id": "f1",
+          "highlight": true,
+          "icon": "Cpu",
+          "description": "Pure copper winding for prolonged heavy-duty longevity."
+        }
+      ],
+      "headline": "Your Beauty, Your Confidence — Smooth & Beautiful Every Day!",
+      "slug": "premium-passport-holder-travel-wallet-durable-multi-compartment-organizer-for-passport-cards-cash-travel-essentials-random-colour",
+      "sku": "SKU: PTW-001"
+    }
+  ],
+  "settings": {
+    "socialLinks": {
+      "email": "ammiexpresssupport@gmail.com",
+      "youtube": "https://youtube.com/@ammiexpresspk",
+      "twitter": "https://twitter.com/ammiexpresspk",
+      "whatsapp": "https://wa.me/923082494870",
+      "instagram": "https://instagram.com/ammiexpress.pk",
+      "tiktok": "https://tiktok.com/@ammiexpress.pk",
+      "pinterest": "https://pinterest.com/ammiexpresspk",
+      "facebook": "https://facebook.com/ammiexpress.pk"
+    },
+    "logoWidth": 150,
+    "supportPhone": "0308-2494870",
+    "jazzCashPayment": {
+      "qrImageUrl": "/assets/ammi-express-real-jazzcash-qr.png",
+      "tillId": "984210573",
+      "qrDescription": "Till ID: 984210573 | Dial *786*10# or Scan with JazzCash / Raast / Any Bank App",
+      "instructions": "Open your JazzCash App > Tap \"Scan QR\" > Scan our verified merchant QR code or enter Till ID 984210573 > Take a screenshot and enter the Transaction ID below.",
+      "verificationNotice": "Your payment will be manually verified by Ammi Express billing team within 30 minutes of order placement.",
+      "showQrCode": true,
+      "qrTitle": "Ammi Express Official JazzCash / Raast Merchant Stand",
+      "qrCodeImage": "/assets/ammi-express-real-jazzcash-qr.png",
+      "accountTitle": "Ammi Express",
+      "enabled": true,
+      "accountNumber": "0308-2494870"
+    },
+    "heroSettings": {
+      "buttonText": "Order Cash On Delivery Now",
+      "subheading": "Shape Your Brows & Remove Unwanted Facial Hair — Two Beauty Essentials in One Compact, Easy-to-Use Device!",
+      "saleNotice": "Flash Sale: 🔥 20%% OFF + 7-Day Replacement Guarantee",
+      "bannerImage": "",
+      "description": "Shape Your Brows & Remove Unwanted Facial Hair — Two Beauty Essentials in One Compact, Easy-to-Use Device!",
+      "headingHighlight": "Effortless Beauty Solution at Home!",
+      "heading": "Beauty Made Easy with Our 2-in-1 Trimmer",
+      "badge": "🔥 Limited Time Offer",
+      "buttonLink": "#order-form"
+    },
+    "logoBg": "transparent",
+    "codPayment": {
+      "instructions": "Pay with physical cash to the courier rider upon package inspection and delivery.",
+      "enabled": true
+    },
+    "businessName": "Ammi Express Pakistan",
+    "trustPoints": [
+      {
+        "description": "If you receive any damaged or defective item, we replace it instantly with zero hassle.",
+        "icon": "ShieldCheck",
+        "title": "7-Day Return & Replacement",
+        "id": "t1"
+      },
+      {
+        "id": "t2",
+        "title": "Fast Nationwide Delivery",
+        "description": "Orders dispatched within 24 hours via premium tracked courier services across Pakistan.",
+        "icon": "Truck"
+      },
+      {
+        "id": "t3",
+        "description": "Pay safely with cash at your doorstep when you physically receive your package.",
+        "icon": "Banknote",
+        "title": "Cash On Delivery Available"
+      },
+      {
+        "title": "Direct WhatsApp Support",
+        "id": "t4",
+        "icon": "Headphones",
+        "description": "Real customer support on 0308-2494870 available 9:00 AM - 11:00 PM every day."
+      }
+    ],
+    "faviconUrl": "",
+    "policies": {
+      "termsConditions": "All orders placed on Ammi Express are subject to telephone or WhatsApp confirmation before dispatch. Delivery timelines are typically 2 to 4 business days depending on city location. Customers must provide valid contact details to avoid delivery cancellation.",
+      "shippingPolicy": "We ship nationwide using courier partners (TCS, Leopards, Trax). A flat delivery fee of Rs. 180 is applied at checkout. Once dispatched, a live tracking code is provided via SMS / WhatsApp.",
+      "returnRefundPolicy": "We provide a 7-day hassle-free replacement warranty for manufacturing defects or shipping damages. Simply contact our official WhatsApp at 0308-2494870 with an unboxing video or photos, and our team will arrange a replacement parcel immediately.",
+      "privacyPolicy": "At Ammi Express, your privacy is strictly protected. We collect your delivery name, contact number, and address strictly for shipping and courier confirmation purposes. We never sell, share, or disclose your personal contact information to third parties."
+    },
+    "visibility": {
+      "showFooterSocials": true,
+      "showHowItWorks": true,
+      "showDelivery": true,
+      "showFaqs": true,
+      "showFeaturedProduct": true,
+      "showDescription": true,
+      "showHeaderSocials": true,
+      "showFeatures": true,
+      "showBenefits": true,
+      "showSpecs": true,
+      "showReviews": true,
+      "showTrendingGrid": true,
+      "showCategories": true,
+      "showAnnouncement": true,
+      "showHero": true,
+      "showOrderForm": true,
+      "showTrust": true
+    },
+    "footerSettings": {
+      "newsletterDescription": "Get WhatsApp and email alerts on upcoming seasonal discounts and kitchen essentials.",
+      "supportEmail": "support@ammiexpress.pk",
+      "showNewsletter": true,
+      "newsletterTitle": "Subscribe for Exclusive Deals & New Arrivals",
+      "aboutText": "Pakistan's trusted store for innovative, high-quality household and kitchen lifestyle gadgets. We bring smart products to improve your everyday living.",
+      "showLogo": true,
+      "address": "Ammi Express Logistics Center, Main Commercial Boulevard, Gulberg, Lahore, Pakistan",
+      "showSocialLinks": true,
+      "copyrightText": "© 2026 Ammi Express Pakistan. All Rights Reserved.",
+      "helplineNumber": "0308-2494870",
+      "operatingHours": "9:00 AM – 11:00 PM (Mon-Sun)"
+    },
+    "supportEmail": "support@ammiexpress.pk",
+    "trustSectionTexts": {
+      "description": "Built with trust, reliability, and honest customer service for every Pakistani household.",
+      "badge": "Our Guarantee",
+      "heading": "Why Shop With Ammi Express?"
+    },
+    "freeDeliveryAbove": 3500,
+    "logoUrl": "/uploads/logo-chatgpt-image-sep-17--2026--05-1789650056419.png",
+    "colors": {
+      "primary": "#F5B800",
+      "accent": "#16803D",
+      "dark": "#171717"
+    },
+    "faqSectionTexts": {
+      "badge": "Got Questions?",
+      "description": "Everything you need to know about placing your order, delivery, and payment.",
+      "heading": "Frequently Asked Questions"
+    },
+    "reviewsSectionTexts": {
+      "description": "Real experiences from verified buyers in Lahore, Karachi, Islamabad, and across the country.",
+      "heading": "Trusted by Thousands Across Pakistan",
+      "badge": "Real Pakistani Feedback"
+    },
+    "logoAlignment": "right",
+    "whatsappPrefilledMessage": "Assalam-o-Alaikum Ammi Express, I need information about {product}.",
+    "deliveryCharge": 180,
+    "slogan": "Smart Products. Better Everyday Living.",
+    "whatsappNumber": "0308-2494870",
+    "deliveryInfo": {
+      "courierPartners": "TCS, Leopards, Call Courier & Trax Express",
+      "citiesCovered": "Delivering to over 250+ cities, towns, and villages across Pakistan",
+      "timeEstimate": "2 to 4 Business Days",
+      "packagingNotice": "Bubble-wrapped double reinforced box to ensure zero transit damage."
+    },
+    "deliverySectionTexts": {
+      "description": "We partner with Pakistan's leading courier networks to ensure your parcel reaches safely.",
+      "heading": "Fast, Reliable Delivery Across Pakistan",
+      "badge": "Nationwide Logistics"
+    },
+    "seo": {
+      "metaTitle": "Ammi Express - Smart Products. Better Everyday Living",
+      "metaDescription": "Shop premium home and kitchen products on Ammi Express Pakistan. Fast Cash on Delivery and JazzCash QR payment."
+    },
+    "sectionHeadings": {
+      "orderFormSubtitle": "Fill in your delivery details below. Pay Cash on Delivery when rider arrives, or pay via JazzCash QR.",
+      "featuresHeading": "Built for Power, Safety & Durability",
+      "productGridTitle": "Trending & New Arrivals",
+      "bestSelling": "Best Selling",
+      "featuredProducts": "Featured Products",
+      "trendingProducts": "Trending Products",
+      "categoriesTitle": "Premium Kitchen Collection",
+      "specificationsHeading": "Features & Technical Specifications",
+      "kitchenGadgets": "Premium Kitchen Collection",
+      "orderFormTitle": "Complete Your Order",
+      "categoriesSubtitle": "Discover our curated range of quality home and kitchen essentials",
+      "newArrivals": "New Arrivals",
+      "productGridSubtitle": "Customer Favorites Hand-picked for Quality"
+    },
+    "brandName": "Ammi Express",
+    "announcementBar": {
+      "text": "🚚 Fast Delivery All Over Pakistan | 💵 Cash on Delivery & JazzCash Available | ⚡ Limited Stock Sale",
+      "linkText": "Order Now",
+      "enabled": true
+    },
+    "showLogo": true,
+    "featuredProductId": "prod-ammi-1790844044142",
+    "logoHeight": 46
+  },
+  "categories": [],
+  "homepageSections": [
+    {
+      "id": "sec-benefits",
+      "visible": true,
+      "type": "benefits",
+      "enabled": true,
+      "subtitle": "Designed for Everyday Speed & Convenience",
+      "title": "Why Pakistani Homes Love It",
+      "order": 4,
+      "description": "Key benefits and highlights for daily cooking prep"
+    },
+    {
+      "textColor": "",
+      "order": 1,
+      "visible": true,
+      "productIds": [],
+      "title": "Explore Categories",
+      "buttonLink": "",
+      "badge": "",
+      "enabled": true,
+      "backgroundColor": "",
+      "buttonText": "",
+      "id": "sec-categories",
+      "description": "Browse top trending product categories",
+      "subtitle": "Curated Kitchen & Home Collections",
+      "categoryId": "",
+      "image": "",
+      "type": "categories"
+    },
+    {
+      "title": "Fast Nationwide Delivery",
+      "order": 8,
+      "subtitle": "Doorstep Courier Tracking via TCS, Leopards & Trax",
+      "type": "delivery",
+      "visible": true,
+      "description": "Orders dispatched within 24 hours",
+      "enabled": true,
+      "id": "sec-delivery"
+    },
+    {
+      "enabled": true,
+      "title": "Frequently Asked Questions",
+      "order": 10,
+      "id": "sec-faqs",
+      "description": "Answers about delivery times, checks, replacements, and JazzCash payment.",
+      "subtitle": "Everything You Need to Know Before Ordering",
+      "type": "faqs",
+      "visible": true
+    },
+    {
+      "description": "Ammi Express Smart Multi-Function Wireless Food Processor & Chopper",
+      "id": "sec-featured-product",
+      "title": "Kitchen Gadgets Spotlight",
+      "subtitle": "2025 Bestseller - 40% Limited Time Offer",
+      "enabled": true,
+      "visible": true,
+      "order": 3,
+      "type": "featured_product",
+      "categoryId": "cat-kitchen"
+    },
+    {
+      "type": "hero",
+      "buttonLink": "",
+      "badge": "",
+      "title": "Hero Showcase",
+      "productIds": [],
+      "order": 1,
+      "description": "Main visual highlight with instant buy-now CTA",
+      "textColor": "",
+      "backgroundColor": "",
+      "id": "sec-hero",
+      "categoryId": "",
+      "image": "",
+      "enabled": true,
+      "visible": true,
+      "buttonText": "",
+      "subtitle": "Flash Sale & Quick Order"
+    },
+    {
+      "type": "order_form",
+      "id": "sec-order-form",
+      "enabled": true,
+      "title": "Instant Cash on Delivery & JazzCash Checkout",
+      "order": 9,
+      "subtitle": "Fill your address details to confirm your order",
+      "description": "No credit card required. Pay cash to the courier or scan JazzCash QR.",
+      "visible": true
+    },
+    {
+      "type": "product_grid",
+      "visible": true,
+      "subtitle": "Customer Favorites Hand-picked for Quality",
+      "description": "Top requested appliances and rechargeable kitchen gear",
+      "id": "sec-product-grid",
+      "title": "Trending & New Arrivals",
+      "order": 5,
+      "enabled": true
+    },
+    {
+      "type": "reviews",
+      "description": "Read what real homemakers in Karachi, Lahore, and Islamabad have to say",
+      "enabled": true,
+      "id": "sec-reviews",
+      "visible": true,
+      "title": "Customer Experiences & Feedback",
+      "order": 6,
+      "subtitle": "Over 380+ 5-Star Reviews from Verified Buyers Across Pakistan"
+    },
+    {
+      "description": "Complete peace of mind with every order",
+      "id": "sec-trust",
+      "title": "Our Nationwide Promise",
+      "order": 7,
+      "enabled": true,
+      "type": "trust",
+      "visible": true,
+      "subtitle": "Safe Delivery, 7-Day Guarantee & Direct WhatsApp Support"
+    }
+  ],
+  "banners": [
+    {
+      "badge": "Special Promo",
+      "id": "ban-1",
+      "imageUrl": "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=1200&q=80",
+      "buttonText": "Shop Sale Deals",
+      "title": "Ramadan & Eid Kitchen Mega Sale",
+      "subtitle": "Save up to 40% on wireless choppers & blenders with free warranty",
+      "enabled": true,
+      "buttonLink": "#order-form",
+      "discountText": "FLAT 40% OFF",
+      "order": 1
+    },
+    {
+      "buttonLink": "#order-form",
+      "order": 2,
+      "enabled": true,
+      "id": "ban-2",
+      "discountText": "FREE VIP PACKING",
+      "buttonText": "Pay With JazzCash",
+      "title": "Instant JazzCash & Raast Payment Bonus",
+      "badge": "Express Dispatch",
+      "subtitle": "Pay via JazzCash Till ID 984210573 for express priority packaging"
+    }
+  ],
+  "socialMediaLinks": [
+    {
+      "platform": "email",
+      "name": "Email",
+      "showInHeader": true,
+      "showInFooter": true,
+      "enabled": true,
+      "id": "soc-email",
+      "order": 8,
+      "url": "ammiexpresssupport@gmail.com"
+    },
+    {
+      "order": 1,
+      "enabled": true,
+      "url": "https://facebook.com/ammiexpress.pk",
+      "showInHeader": true,
+      "showInFooter": true,
+      "platform": "facebook",
+      "name": "Facebook",
+      "id": "soc-fb"
+    },
+    {
+      "platform": "instagram",
+      "order": 2,
+      "url": "https://instagram.com/ammiexpress.pk",
+      "enabled": true,
+      "name": "Instagram",
+      "id": "soc-ig",
+      "showInFooter": true,
+      "showInHeader": true
+    },
+    {
+      "showInFooter": true,
+      "showInHeader": false,
+      "id": "soc-pin",
+      "url": "https://pinterest.com/ammiexpresspk",
+      "platform": "pinterest",
+      "name": "Pinterest",
+      "order": 6,
+      "enabled": false
+    },
+    {
+      "platform": "tiktok",
+      "url": "https://tiktok.com/@ammiexpress.pk",
+      "order": 3,
+      "name": "TikTok",
+      "enabled": true,
+      "showInFooter": true,
+      "showInHeader": true,
+      "id": "soc-tt"
+    },
+    {
+      "showInHeader": false,
+      "showInFooter": true,
+      "url": "https://twitter.com/ammiexpresspk",
+      "platform": "twitter",
+      "order": 7,
+      "enabled": false,
+      "id": "soc-tw",
+      "name": "Twitter / X"
+    },
+    {
+      "enabled": true,
+      "name": "WhatsApp Channel",
+      "order": 4,
+      "url": "https://wa.me/923082494870",
+      "showInHeader": true,
+      "showInFooter": true,
+      "platform": "whatsapp",
+      "id": "soc-wa"
+    },
+    {
+      "platform": "youtube",
+      "enabled": true,
+      "name": "YouTube",
+      "order": 5,
+      "showInHeader": false,
+      "showInFooter": true,
+      "url": "https://youtube.com/@ammiexpresspk",
+      "id": "soc-yt"
+    }
+  ],
+  "reviews": [
+    {
+      "comment": "I really like the compact design of this trimmer. It is convenient to keep in my makeup bag and useful for my everyday beauty routine.",
+      "approved": true,
+      "city": "Lahore",
+      "id": "rev-1791737221111",
+      "name": "Ayesha",
+      "date": "Just now",
+      "rating": 5,
+      "verifiedPurchase": true
+    },
+    {
+      "id": "rev-1791737285665",
+      "date": "Just now",
+      "rating": 5,
+      "city": "Faisalabad",
+      "approved": true,
+      "comment": "I like that it combines eyebrow grooming and facial hair removal in one device. It looks stylish and is easy to carry when travelling.",
+      "verifiedPurchase": true,
+      "name": "Fatima"
+    },
+    {
+      "city": "Rawalpindi",
+      "verifiedPurchase": true,
+      "name": "Sana",
+      "id": "rev-1791737348162",
+      "approved": true,
+      "comment": "The design is beautiful and the size is convenient. It is a handy addition to my personal care collection.",
+      "rating": 5,
+      "date": "Just now"
+    },
+    {
+      "city": "sialkot",
+      "id": "rev-1791737498616",
+      "name": "Hira",
+      "comment": "I was looking for a compact beauty tool for my daily routine. This 2-in-1 design is convenient and saves space in my makeup pouch.",
+      "approved": true,
+      "verifiedPurchase": true,
+      "rating": 5,
+      "date": "Just now"
+    },
+    {
+      "verifiedPurchase": true,
+      "id": "rev-1791737579123",
+      "date": "Just now",
+      "approved": true,
+      "comment": "I like the rose gold look of this beauty trimmer. It is lightweight in appearance and easy to carry in my handbag.",
+      "city": "Faisalabad",
+      "rating": 5,
+      "name": "Mahnoor"
+    },
+    {
+      "city": "islamabad",
+      "name": "Zainab",
+      "rating": 5,
+      "comment": "A practical beauty accessory for everyday grooming. I like having two grooming functions together in one compact device.",
+      "id": "rev-1791737658753",
+      "approved": true,
+      "date": "Just now",
+      "verifiedPurchase": true
+    }
+  ],
+  "faqs": [
+    {
+      "id": "faq-1",
+      "answer": "Simply select your desired color and quantity, fill in your delivery details in the order form at the bottom of the page, choose your preferred payment method (Cash on Delivery or JazzCash QR), and click \"Complete Order\". You will also receive an instant confirmation message.",
+      "question": "How do I place an order?"
+    },
+    {
+      "answer": "Yes! We provide Cash on Delivery all across Pakistan. You only pay cash to the courier rider when the parcel arrives safely at your doorstep.",
+      "id": "faq-2",
+      "question": "Is Cash on Delivery (COD) available across Pakistan?"
+    },
+    {
+      "answer": "Select \"JazzCash QR Payment\" in the checkout form. You will see our verified Ammi Express QR Code and Till / Account details (0308-2494870). Scan with your JazzCash app, enter the grand total, and upload the screenshot or transaction ID. Your order will be prioritized and verified quickly.",
+      "id": "faq-3",
+      "question": "How do I pay using JazzCash QR?"
+    },
+    {
+      "question": "How long does delivery take?",
+      "id": "faq-4",
+      "answer": "Standard delivery takes 2 to 4 business days. Major cities like Lahore, Karachi, Rawalpindi, and Islamabad usually receive deliveries within 48 to 72 hours via our courier partners (TCS, Leopards, Trax)."
+    },
+    {
+      "question": "Can I check the parcel before paying?",
+      "answer": "Yes, we pack all items in genuine sealed boxes with our 7-Day Checking and Replacement Guarantee. If there is any fault, damage, or discrepancy, our WhatsApp support team (0308-2494870) resolves it immediately.",
+      "id": "faq-5"
+    },
+    {
+      "answer": "The package contains 1x Ammi Express Smart Motor Unit, 1x 250ml Food-grade PC Bowl, 1x 4-Blade 304 Stainless Steel Cyclone Assembly, 1x USB Type-C Fast Charging Cable, and 1x English/Urdu User Instruction Manual.",
+      "id": "faq-6",
+      "question": "What is included inside the box?"
+    }
+  ],
+  "orders": [
+    {
+      "customer": {
+        "address": "street no 15\nAmin town a block Kashmir road faisalabad",
+        "fullName": "Muhammad Bilal M Bilal Arif",
+        "mobileNumber": "03082494970",
+        "city": "faisalabad",
+        "nearbyLandmark": "",
+        "customerNote": "",
+        "province": "Punjab",
+        "whatsappNumber": "03082494970"
+      },
+      "status": "new",
+      "payment": {
+        "status": "pending_confirmation",
+        "transactionId": "",
+        "method": "cod",
+        "screenshotUrl": ""
+      },
+      "createdAtServer": {
+        "type": "firestore/timestamp/1.0",
+        "seconds": 1792292051,
+        "nanoseconds": 847000000
+      },
+      "pricing": {
+        "subtotal": 1199,
+        "grandTotal": 1449,
+        "bundleDiscount": 0,
+        "deliveryCharge": 250
+      },
+      "item": {
+        "quantity": 1,
+        "sku": "SKU: PTW-001",
+        "variant": "Grey",
+        "unitPrice": 1199,
+        "productId": "prod-ammi-1790844044142",
+        "productTitle": "2-in-1 Eyebrow Trimmer & Facial Hair Remover for Women"
+      },
+      "history": [
+        {
+          "id": "h-1792292050970",
+          "timestamp": "2026-10-18T02:54:10.970Z",
+          "status": "new",
+          "note": "Order received via Cash on Delivery.",
+          "author": "Storefront"
+        }
+      ],
+      "createdAt": "2026-10-18T02:54:10.970Z",
+      "id": "order-1792292050970",
+      "orderNumber": "AE-18040"
+    },
+    {
+      "orderNumber": "AE-47576",
+      "customer": {
+        "customerNote": "",
+        "province": "Punjab",
+        "nearbyLandmark": "",
+        "city": "Lahore",
+        "address": "Dha fazi 2 house no 6. Faz 6 jamia masjid",
+        "mobileNumber": "03021696655",
+        "fullName": "Rana Bilal",
+        "whatsappNumber": "03021696655"
+      },
+      "pricing": {
+        "subtotal": 1199,
+        "bundleDiscount": 0,
+        "deliveryCharge": 180,
+        "grandTotal": 1379
+      },
+      "payment": {
+        "transactionId": "",
+        "status": "pending_confirmation",
+        "screenshotUrl": "",
+        "method": "cod"
+      },
+      "createdAt": "2026-10-18T03:35:12.383Z",
+      "id": "order-1792294512383",
+      "item": {
+        "sku": "SKU: PTW-001",
+        "unitPrice": 1199,
+        "productId": "prod-ammi-1790844044142",
+        "quantity": 1,
+        "variant": "Grey",
+        "productTitle": "2-in-1 Eyebrow Trimmer & Facial Hair Remover for Women"
+      },
+      "history": [
+        {
+          "note": "Order received via Cash on Delivery.",
+          "status": "new",
+          "id": "h-1792294512383",
+          "timestamp": "2026-10-18T03:35:12.383Z",
+          "author": "Storefront"
+        }
+      ],
+      "createdAtServer": {
+        "type": "firestore/timestamp/1.0",
+        "seconds": 1792294512,
+        "nanoseconds": 949000000
+      },
+      "status": "new"
+    }
+  ],
+  "inventoryMovements": [
+    {
+      "id": "mov-1792294579291",
+      "productId": "prod-ammi-1790844044142",
+      "productTitle": "2-in-1 Eyebrow Trimmer & Facial Hair Remover for Women",
+      "type": "order_deduct",
+      "quantityChange": -1,
+      "previousStock": 51,
+      "newStock": 50,
+      "reason": "Deducted for customer order #AE-26180",
+      "timestamp": "2026-10-18T03:36:19.291Z"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "notif-1792294579291",
+      "type": "new_order",
+      "title": "New Customer Order",
+      "message": "Order #AE-26180 placed by Test Customer (Lahore) - Rs. 1,379",
+      "orderId": "order-1792294579291",
+      "read": false,
+      "createdAt": "2026-10-18T03:36:19.306Z"
+    }
+  ],
+  "productHandlingTexts": [
+    {
+      "safetyDescription": "At Ammi Express, we believe your beauty routine should be simple and convenient. Our 2-in-1 Eyebrow Trimmer & Facial Hair Remover is designed for everyday personal grooming. For the best experience, read the product instructions before use, handle the grooming head carefully, and use the device gently on the intended areas. Keep the device clean and store it safely after use. Choose Ammi Express for a convenient addition to your daily beauty routine.",
+      "safetyHeading": "Your Beauty, Our Priority",
+      "buyerProtectionDescription": "At Ammi Express, your satisfaction matters to us. We carefully prepare your order and aim to provide a smooth, reliable shopping experience. Enjoy the convenience of Cash on Delivery (COD), so you can pay when your order arrives. For assistance with your order, delivery, or product concerns, please contact our customer support team. We are here to help make your shopping experience easy and worry-free.",
+      "ctaText": "",
+      "mainDescription": "Discover effortless beauty with the Ammi Express 2-in-1 Eyebrow Trimmer & Facial Hair Remover. Designed for convenient everyday grooming, this compact beauty essential helps you shape your eyebrows and remove unwanted facial hair with ease. Its stylish design makes it a practical addition to your beauty routine at home or while travelling. Enjoy a neat, polished look with one convenient grooming tool — now available for just Rs. 1,199!",
+      "customSections": [],
+      "deliveryText": "",
+      "buyerProtectionHeading": "Shop with Confidence at Ammi Express",
+      "deepDiveBadge": "✨ 2-IN-1 BEAUTY ESSENTIAL",
+      "productId": "prod-ammi-1790844044142",
+      "benefitsHeading": "Your Everyday Beauty Benefits",
+      "storyDescription": "Meet your new everyday beauty companion from Ammi Express! Our 2-in-1 Eyebrow Trimmer & Facial Hair Remover is designed to make your personal grooming routine simple and convenient. Whether you want to tidy up your eyebrows or remove unwanted facial hair, this compact beauty tool brings two grooming functions together in one stylish design. Easy to carry and convenient for everyday touch-ups, it fits effortlessly into your beauty routine at home or while travelling. Enjoy a polished look with less hassle and more convenience — all for just Rs. 1,199!",
+      "storyHeading": "Your Everyday Beauty Essential",
+      "createdAt": "2026-10-01T08:40:44.142Z",
+      "guaranteeText": "",
+      "benefitsSection": {
+        "description": "Enjoy effortless eyebrow shaping and facial hair removal with our 2-in-1 beauty essential. Compact, convenient, and easy to use — your everyday partner for a polished look, wherever you go. 💖",
+        "eyebrow": "YOUR DAILY BEAUTY ESSENTIAL",
+        "heading": "Your Beauty Routine, Made Effortless"
+      },
+      "updatedAt": "2026-10-12T13:21:34.344Z",
+      "deletedAt": null,
+      "benefits": [
+        {
+          "enabled": true,
+          "text": "Complete Travel Organization",
+          "icon": "Heart",
+          "displayOrder": 1,
+          "id": "ben-1790843498957-275",
+          "description": "Shape your eyebrows and remove unwanted facial hair with one convenient beauty tool. Simplify your everyday grooming routine with Ammi Express.",
+          "title": "2-in-1 Beauty Solution"
+        },
+        {
+          "description": "Enjoy a simple grooming routine at home whenever you need a quick beauty touch-up. Designed for convenient everyday personal care.",
+          "id": "ben-1790843525349-342",
+          "title": "Easy & Convenient Grooming",
+          "enabled": true,
+          "displayOrder": 2,
+          "icon": "Star",
+          "text": "Multiple Compartments"
+        },
+        {
+          "icon": "CheckCircle2",
+          "title": "Compact & Travel-Friendly",
+          "id": "ben-1790843566141-770",
+          "description": "Its compact design makes it easy to carry in your handbag or travel pouch, so your beauty essential is always within reach.",
+          "text": "Durable & Stylish Design",
+          "displayOrder": 3,
+          "enabled": true
+        },
+        {
+          "description": "Keep your personal grooming routine simple and convenient. Enjoy a neat, well-groomed look at home, at work, or while travelling.",
+          "displayOrder": 4,
+          "title": "Your Beauty, Your Confidence",
+          "icon": "BatteryCharging",
+          "id": "ben-1790843601380-887",
+          "text": "Compact & Travel-Friendly",
+          "enabled": true
+        }
+      ],
+      "mainHeading": "Why You'll Love Our 2-in-1 Beauty Trimmer",
+      "sku": "SKU: PTW-001"
+    }
+  ],
+  "performanceMetrics": [
+    {
+      "id": "perf-1792294119572-uppg1",
+      "timestamp": "2026-10-18T03:28:39.572Z",
+      "page": "storefront",
+      "initialLoadTimeMs": 28629,
+      "apiLatencyMs": 1988,
+      "apiPayloadSizeBytes": 32568,
+      "imageLoadTimeMs": 134,
+      "imageCount": 1,
+      "slowestImageName": "/tr/",
+      "slowestImageTimeMs": 134,
+      "totalImageSizeBytes": 0,
+      "imagesDetail": [
+        {
+          "name": "/tr/",
+          "durationMs": 134,
+          "transferSizeBytes": 0,
+          "initiatorType": "img"
+        }
+      ],
+      "resourcesSummary": {
+        "imagesCount": 1,
+        "scriptsCount": 72,
+        "stylesheetsCount": 1,
+        "totalTransferBytes": 1689817
+      },
+      "ttfbMs": 554,
+      "domContentLoadedMs": 27978,
+      "dnsTimeMs": 0,
+      "tcpTimeMs": 0,
+      "navigationType": "navigate",
+      "thresholdMs": 2000,
+      "exceeded": true,
+      "userAgent": "Mozilla/5.0 (X11; CrOS x86_64 14541.0.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36"
+    },
+    {
+      "id": "perf-1792073691921-cn98m",
+      "timestamp": "2026-10-15T14:14:51.921Z",
+      "page": "storefront",
+      "initialLoadTimeMs": 10815,
+      "apiLatencyMs": 1098,
+      "apiPayloadSizeBytes": 32568,
+      "imageLoadTimeMs": 62,
+      "imageCount": 7,
+      "slowestImageName": "/tr/",
+      "slowestImageTimeMs": 432,
+      "totalImageSizeBytes": 2658331,
+      "imagesDetail": [
+        {
+          "name": "/tr/",
+          "durationMs": 432,
+          "transferSizeBytes": 0,
+          "initiatorType": "img"
+        },
+        {
+          "name": "logo-chatgpt-image-sep-17--2026--05-1789650056419.png",
+          "durationMs": 0,
+          "transferSizeBytes": 696677,
+          "initiatorType": "img"
+        },
+        {
+          "name": "products-1791734408252-lsvxzr4-2-in-1-glitter-beauty-ess.jpg",
+          "durationMs": 0,
+          "transferSizeBytes": 407137,
+          "initiatorType": "img"
+        },
+        {
+          "name": "products-1791734413839-qt2i1rd-ammi-express-2-in-1-beaut.jpg",
+          "durationMs": 0,
+          "transferSizeBytes": 413728,
+          "initiatorType": "img"
+        },
+        {
+          "name": "products-1791734419684-en6ag94-2-in-1-beauty-trimmer-ess.jpg",
+          "durationMs": 0,
+          "transferSizeBytes": 397681,
+          "initiatorType": "img"
+        },
+        {
+          "name": "products-1791734426181-m8p6xsu-ammi-express-beauty-trimm.jpg",
+          "durationMs": 0,
+          "transferSizeBytes": 403331,
+          "initiatorType": "img"
+        },
+        {
+          "name": "products-1791734432622-xfie7wq-rose-gold-2-in-1-trimmer-.jpg",
+          "durationMs": 0,
+          "transferSizeBytes": 339777,
+          "initiatorType": "img"
+        }
+      ],
+      "resourcesSummary": {
+        "imagesCount": 7,
+        "scriptsCount": 72,
+        "stylesheetsCount": 1,
+        "totalTransferBytes": 8720662
+      },
+      "ttfbMs": 543,
+      "domContentLoadedMs": 10797,
+      "dnsTimeMs": 0,
+      "tcpTimeMs": 0,
+      "navigationType": "navigate",
+      "thresholdMs": 2000,
+      "exceeded": true,
+      "userAgent": "Mozilla/5.0 (X11; CrOS x86_64 14541.0.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36"
+    },
+    {
+      "id": "perf-1792073157793-x25px",
+      "timestamp": "2026-10-15T14:05:57.793Z",
+      "page": "storefront",
+      "initialLoadTimeMs": 11430,
+      "apiLatencyMs": 499,
+      "apiPayloadSizeBytes": 32568,
+      "imageLoadTimeMs": 151,
+      "imageCount": 3,
+      "slowestImageName": "/tr/",
+      "slowestImageTimeMs": 452,
+      "totalImageSizeBytes": 1103814,
+      "imagesDetail": [
+        {
+          "name": "/tr/",
+          "durationMs": 452,
+          "transferSizeBytes": 0,
+          "initiatorType": "img"
+        },
+        {
+          "name": "logo-chatgpt-image-sep-17--2026--05-1789650056419.png",
+          "durationMs": 0,
+          "transferSizeBytes": 696677,
+          "initiatorType": "img"
+        },
+        {
+          "name": "products-1791734408252-lsvxzr4-2-in-1-glitter-beauty-ess.jpg",
+          "durationMs": 0,
+          "transferSizeBytes": 407137,
+          "initiatorType": "img"
+        }
+      ],
+      "resourcesSummary": {
+        "imagesCount": 3,
+        "scriptsCount": 72,
+        "stylesheetsCount": 1,
+        "totalTransferBytes": 3500322
+      },
+      "ttfbMs": 654,
+      "domContentLoadedMs": 11416,
+      "dnsTimeMs": 0,
+      "tcpTimeMs": 0,
+      "navigationType": "navigate",
+      "thresholdMs": 2000,
+      "exceeded": true,
+      "userAgent": "Mozilla/5.0 (X11; CrOS x86_64 14541.0.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36"
+    },
+    {
+      "id": "perf-1792072855172-o3q2j",
+      "timestamp": "2026-10-15T14:00:55.172Z",
+      "page": "storefront",
+      "initialLoadTimeMs": 10885,
+      "apiLatencyMs": 654,
+      "apiPayloadSizeBytes": 32568,
+      "imageLoadTimeMs": 0,
+      "imageCount": 0,
+      "slowestImageTimeMs": 0,
+      "totalImageSizeBytes": 0,
+      "imagesDetail": [],
+      "resourcesSummary": {
+        "imagesCount": 0,
+        "scriptsCount": 70,
+        "stylesheetsCount": 1,
+        "totalTransferBytes": 2170589
+      },
+      "ttfbMs": 1959,
+      "domContentLoadedMs": 10875,
+      "dnsTimeMs": 0,
+      "tcpTimeMs": 0,
+      "navigationType": "navigate",
+      "thresholdMs": 2000,
+      "exceeded": true,
+      "userAgent": "Mozilla/5.0 (X11; CrOS x86_64 14541.0.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36"
+    },
+    {
+      "id": "perf-1790862119224-wqqsx",
+      "timestamp": "2026-10-01T13:41:59.224Z",
+      "page": "storefront",
+      "initialLoadTimeMs": 34647,
+      "apiLatencyMs": 726,
+      "apiPayloadSizeBytes": 29173,
+      "imageLoadTimeMs": 0,
+      "imageCount": 0,
+      "slowestImageTimeMs": 0,
+      "totalImageSizeBytes": 0,
+      "imagesDetail": [],
+      "resourcesSummary": {
+        "imagesCount": 0,
+        "scriptsCount": 60,
+        "stylesheetsCount": 1,
+        "totalTransferBytes": 1774663
+      },
+      "ttfbMs": 522,
+      "domContentLoadedMs": 34640,
+      "dnsTimeMs": 0,
+      "tcpTimeMs": 0,
+      "navigationType": "navigate",
+      "thresholdMs": 2000,
+      "exceeded": true,
+      "userAgent": "Mozilla/5.0 (X11; CrOS x86_64 14541.0.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36"
+    },
+    {
+      "id": "perf-1790769479831-ykhk1",
+      "timestamp": "2026-09-30T11:57:59.831Z",
+      "page": "storefront",
+      "initialLoadTimeMs": 7127,
+      "apiLatencyMs": 556,
+      "apiPayloadSizeBytes": 29717,
+      "imageLoadTimeMs": 3,
+      "imageCount": 3,
+      "slowestImageName": "photo-1556911220-e15b29be8c8f",
+      "slowestImageTimeMs": 6,
+      "totalImageSizeBytes": 748566,
+      "imagesDetail": [
+        {
+          "name": "photo-1556911220-e15b29be8c8f",
+          "durationMs": 6,
+          "transferSizeBytes": 20113,
+          "initiatorType": "img"
+        },
+        {
+          "name": "products-2026_08_10_8199dd40342051f2b8e-1790410943014.jpg",
+          "durationMs": 4,
+          "transferSizeBytes": 31776,
+          "initiatorType": "img"
+        },
+        {
+          "name": "logo-chatgpt-image-sep-17--2026--05-1789650056419.png",
+          "durationMs": 0,
+          "transferSizeBytes": 696677,
+          "initiatorType": "img"
+        }
+      ],
+      "resourcesSummary": {
+        "imagesCount": 3,
+        "scriptsCount": 60,
+        "stylesheetsCount": 1,
+        "totalTransferBytes": 5422281
+      },
+      "ttfbMs": 485,
+      "domContentLoadedMs": 7123,
+      "dnsTimeMs": 0,
+      "tcpTimeMs": 0,
+      "navigationType": "navigate",
+      "thresholdMs": 2000,
+      "exceeded": true,
+      "userAgent": "Mozilla/5.0 (X11; CrOS x86_64 14541.0.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36"
+    },
+    {
+      "id": "perf-1790768602863-71jvx",
+      "timestamp": "2026-09-30T11:43:22.864Z",
+      "page": "storefront",
+      "initialLoadTimeMs": 25554,
+      "apiLatencyMs": 666,
+      "apiPayloadSizeBytes": 25894,
+      "imageLoadTimeMs": 18,
+      "imageCount": 2,
+      "slowestImageName": "logo-chatgpt-image-sep-17--2026--05-1789650056419.png",
+      "slowestImageTimeMs": 28,
+      "totalImageSizeBytes": 716790,
+      "imagesDetail": [
+        {
+          "name": "logo-chatgpt-image-sep-17--2026--05-1789650056419.png",
+          "durationMs": 28,
+          "transferSizeBytes": 696677,
+          "initiatorType": "img"
+        },
+        {
+          "name": "photo-1556911220-e15b29be8c8f",
+          "durationMs": 7,
+          "transferSizeBytes": 20113,
+          "initiatorType": "img"
+        }
+      ],
+      "resourcesSummary": {
+        "imagesCount": 2,
+        "scriptsCount": 60,
+        "stylesheetsCount": 1,
+        "totalTransferBytes": 2488499
+      },
+      "ttfbMs": 465,
+      "domContentLoadedMs": 25539,
+      "dnsTimeMs": 0,
+      "tcpTimeMs": 0,
+      "navigationType": "navigate",
+      "thresholdMs": 2000,
+      "exceeded": true,
+      "userAgent": "Mozilla/5.0 (X11; CrOS x86_64 14541.0.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36"
+    },
+    {
+      "id": "perf-1790680584289-1x0k4",
+      "timestamp": "2026-09-29T11:16:24.289Z",
+      "page": "storefront",
+      "initialLoadTimeMs": 10080,
+      "apiLatencyMs": 515,
+      "apiPayloadSizeBytes": 26170,
+      "imageLoadTimeMs": 56,
+      "imageCount": 1,
+      "slowestImageName": "logo-chatgpt-image-sep-17--2026--05-1789650056419.png",
+      "slowestImageTimeMs": 56,
+      "totalImageSizeBytes": 696677,
+      "imagesDetail": [
+        {
+          "name": "logo-chatgpt-image-sep-17--2026--05-1789650056419.png",
+          "durationMs": 56,
+          "transferSizeBytes": 696677,
+          "initiatorType": "img"
+        }
+      ],
+      "resourcesSummary": {
+        "imagesCount": 1,
+        "scriptsCount": 58,
+        "stylesheetsCount": 1,
+        "totalTransferBytes": 2452011
+      },
+      "ttfbMs": 476,
+      "domContentLoadedMs": 10075,
+      "dnsTimeMs": 0,
+      "tcpTimeMs": 0,
+      "navigationType": "navigate",
+      "thresholdMs": 2000,
+      "exceeded": true,
+      "userAgent": "Mozilla/5.0 (X11; CrOS x86_64 14541.0.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36"
+    },
+    {
+      "id": "perf-1790608547020-9tlwb",
+      "timestamp": "2026-09-28T15:15:47.020Z",
+      "page": "storefront",
+      "initialLoadTimeMs": 16422,
+      "apiLatencyMs": 528,
+      "apiPayloadSizeBytes": 35583,
+      "imageLoadTimeMs": 150,
+      "imageCount": 3,
+      "slowestImageName": "logo-chatgpt-image-sep-17--2026--05-1789650056419.png",
+      "slowestImageTimeMs": 378,
+      "totalImageSizeBytes": 764940,
+      "imagesDetail": [
+        {
+          "name": "logo-chatgpt-image-sep-17--2026--05-1789650056419.png",
+          "durationMs": 378,
+          "transferSizeBytes": 696677,
+          "initiatorType": "img"
+        },
+        {
+          "name": "products-2026_08_10_8199dd40342051f2b8e-1790410943014.jpg",
+          "durationMs": 40,
+          "transferSizeBytes": 31776,
+          "initiatorType": "img"
+        },
+        {
+          "name": "photo-1590794056226-79ef3a8147e1",
+          "durationMs": 32,
+          "transferSizeBytes": 36487,
+          "initiatorType": "img"
+        }
+      ],
+      "resourcesSummary": {
+        "imagesCount": 3,
+        "scriptsCount": 58,
+        "stylesheetsCount": 1,
+        "totalTransferBytes": 4664702
+      },
+      "ttfbMs": 456,
+      "domContentLoadedMs": 16413,
+      "dnsTimeMs": 0,
+      "tcpTimeMs": 0,
+      "navigationType": "navigate",
+      "thresholdMs": 2000,
+      "exceeded": true,
+      "userAgent": "Mozilla/5.0 (X11; CrOS x86_64 14541.0.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36"
+    },
+    {
+      "id": "perf-1790607107278-ph251",
+      "timestamp": "2026-09-28T14:51:47.278Z",
+      "page": "storefront",
+      "initialLoadTimeMs": 7841,
+      "apiLatencyMs": 536,
+      "apiPayloadSizeBytes": 35583,
+      "imageLoadTimeMs": 0,
+      "imageCount": 6,
+      "slowestImageTimeMs": 0,
+      "totalImageSizeBytes": 1144228,
+      "imagesDetail": [
+        {
+          "name": "logo-chatgpt-image-sep-17--2026--05-1789650056419.png",
+          "durationMs": 0,
+          "transferSizeBytes": 696677,
+          "initiatorType": "img"
+        },
+        {
+          "name": "products-2026_08_10_8199dd40342051f2b8e-1790410943014.jpg",
+          "durationMs": 0,
+          "transferSizeBytes": 31776,
+          "initiatorType": "img"
+        },
+        {
+          "name": "products-2025_10_25_0f3cc2f232bcb5c3857-1790410944169.jpg",
+          "durationMs": 0,
+          "transferSizeBytes": 105185,
+          "initiatorType": "img"
+        },
+        {
+          "name": "products-2025_10_25_f16980bc74320920579-1790410945191.jpg",
+          "durationMs": 0,
+          "transferSizeBytes": 69034,
+          "initiatorType": "img"
+        },
+        {
+          "name": "products-2025_10_25_fbe419119af0dd0153c-1790410946577.jpg",
+          "durationMs": 0,
+          "transferSizeBytes": 159580,
+          "initiatorType": "img"
+        },
+        {
+          "name": "products-2025_10_25_4a85f86ac8870fdc288-1790410947620.jpg",
+          "durationMs": 0,
+          "transferSizeBytes": 81976,
+          "initiatorType": "img"
+        }
+      ],
+      "resourcesSummary": {
+        "imagesCount": 6,
+        "scriptsCount": 58,
+        "stylesheetsCount": 1,
+        "totalTransferBytes": 5155654
+      },
+      "ttfbMs": 468,
+      "domContentLoadedMs": 7834,
+      "dnsTimeMs": 0,
+      "tcpTimeMs": 0,
+      "navigationType": "navigate",
+      "thresholdMs": 2000,
+      "exceeded": true,
+      "userAgent": "Mozilla/5.0 (X11; CrOS x86_64 14541.0.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36"
+    },
+    {
+      "id": "perf-1790604936319-x0nn3",
+      "timestamp": "2026-09-28T14:15:36.319Z",
+      "page": "storefront",
+      "initialLoadTimeMs": 9194,
+      "apiLatencyMs": 502,
+      "apiPayloadSizeBytes": 35583,
+      "imageLoadTimeMs": 34,
+      "imageCount": 1,
+      "slowestImageName": "photo-1590794056226-79ef3a8147e1",
+      "slowestImageTimeMs": 34,
+      "totalImageSizeBytes": 36487,
+      "imagesDetail": [
+        {
+          "name": "photo-1590794056226-79ef3a8147e1",
+          "durationMs": 34,
+          "transferSizeBytes": 36487,
+          "initiatorType": "img"
+        }
+      ],
+      "resourcesSummary": {
+        "imagesCount": 1,
+        "scriptsCount": 58,
+        "stylesheetsCount": 1,
+        "totalTransferBytes": 1790517
+      },
+      "ttfbMs": 458,
+      "domContentLoadedMs": 9185,
+      "dnsTimeMs": 0,
+      "tcpTimeMs": 0,
+      "navigationType": "navigate",
+      "thresholdMs": 2000,
+      "exceeded": true,
+      "userAgent": "Mozilla/5.0 (X11; CrOS x86_64 14541.0.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36"
+    },
+    {
+      "id": "perf-1790599161178-6g55g",
+      "timestamp": "2026-09-28T12:39:21.178Z",
+      "page": "storefront",
+      "initialLoadTimeMs": 4870,
+      "apiLatencyMs": 2143,
+      "apiPayloadSizeBytes": 35583,
+      "imageLoadTimeMs": 219,
+      "imageCount": 5,
+      "slowestImageName": "photo-1588854337236-6889d631faa8",
+      "slowestImageTimeMs": 383,
+      "totalImageSizeBytes": 1059615,
+      "imagesDetail": [
+        {
+          "name": "photo-1588854337236-6889d631faa8",
+          "durationMs": 383,
+          "transferSizeBytes": 59132,
+          "initiatorType": "img"
+        },
+        {
+          "name": "photo-1584992236310-6edddc08acff",
+          "durationMs": 378,
+          "transferSizeBytes": 201383,
+          "initiatorType": "img"
+        },
+        {
+          "name": "photo-1556911220-e15b29be8c8f",
+          "durationMs": 305,
+          "transferSizeBytes": 65936,
+          "initiatorType": "img"
+        },
+        {
+          "name": "logo-chatgpt-image-sep-17--2026--05-1789650056419.png",
+          "durationMs": 17,
+          "transferSizeBytes": 696677,
+          "initiatorType": "img"
+        },
+        {
+          "name": "photo-1590794056226-79ef3a8147e1",
+          "durationMs": 13,
+          "transferSizeBytes": 36487,
+          "initiatorType": "img"
+        }
+      ],
+      "resourcesSummary": {
+        "imagesCount": 5,
+        "scriptsCount": 58,
+        "stylesheetsCount": 1,
+        "totalTransferBytes": 8690427
+      },
+      "ttfbMs": 0,
+      "domContentLoadedMs": 898,
+      "dnsTimeMs": 0,
+      "tcpTimeMs": 0,
+      "navigationType": "back_forward",
+      "thresholdMs": 2000,
+      "exceeded": true,
+      "userAgent": "Mozilla/5.0 (X11; CrOS x86_64 14541.0.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36"
+    },
+    {
+      "id": "perf-1790598860868-yv9yp",
+      "timestamp": "2026-09-28T12:34:20.868Z",
+      "page": "storefront",
+      "initialLoadTimeMs": 11152,
+      "apiLatencyMs": 512,
+      "apiPayloadSizeBytes": 35583,
+      "imageLoadTimeMs": 25,
+      "imageCount": 2,
+      "slowestImageName": "photo-1590794056226-79ef3a8147e1",
+      "slowestImageTimeMs": 27,
+      "totalImageSizeBytes": 68263,
+      "imagesDetail": [
+        {
+          "name": "photo-1590794056226-79ef3a8147e1",
+          "durationMs": 27,
+          "transferSizeBytes": 36487,
+          "initiatorType": "img"
+        },
+        {
+          "name": "products-2026_08_10_8199dd40342051f2b8e-1790410943014.jpg",
+          "durationMs": 23,
+          "transferSizeBytes": 31776,
+          "initiatorType": "img"
+        }
+      ],
+      "resourcesSummary": {
+        "imagesCount": 2,
+        "scriptsCount": 58,
+        "stylesheetsCount": 1,
+        "totalTransferBytes": 1841962
+      },
+      "ttfbMs": 494,
+      "domContentLoadedMs": 11149,
+      "dnsTimeMs": 0,
+      "tcpTimeMs": 0,
+      "navigationType": "navigate",
+      "thresholdMs": 2000,
+      "exceeded": true,
+      "userAgent": "Mozilla/5.0 (X11; CrOS x86_64 14541.0.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36"
+    },
+    {
+      "id": "perf-1790331965933-22kfs",
+      "timestamp": "2026-09-25T10:26:05.933Z",
+      "page": "storefront",
+      "initialLoadTimeMs": 11193,
+      "apiLatencyMs": 596,
+      "apiPayloadSizeBytes": 36521,
+      "imageLoadTimeMs": 770,
+      "imageCount": 1,
+      "slowestImageName": "photo-1590794056226-79ef3a8147e1",
+      "slowestImageTimeMs": 770,
+      "totalImageSizeBytes": 36787,
+      "imagesDetail": [
+        {
+          "name": "photo-1590794056226-79ef3a8147e1",
+          "durationMs": 770,
+          "transferSizeBytes": 36787,
+          "initiatorType": "img"
+        }
+      ],
+      "resourcesSummary": {
+        "imagesCount": 1,
+        "scriptsCount": 58,
+        "stylesheetsCount": 1,
+        "totalTransferBytes": 1831109
+      },
+      "ttfbMs": 526,
+      "domContentLoadedMs": 11181,
+      "dnsTimeMs": 0,
+      "tcpTimeMs": 0,
+      "navigationType": "navigate",
+      "thresholdMs": 2000,
+      "exceeded": true,
+      "userAgent": "Mozilla/5.0 (X11; CrOS x86_64 14541.0.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36"
+    },
+    {
+      "id": "perf-1790243318066-k6sux",
+      "timestamp": "2026-09-24T09:48:38.066Z",
+      "page": "storefront",
+      "initialLoadTimeMs": 5701,
+      "apiLatencyMs": 519,
+      "apiPayloadSizeBytes": 36533,
+      "imageLoadTimeMs": 39,
+      "imageCount": 7,
+      "slowestImageName": "logo-chatgpt-image-sep-17--2026--05-1789650056419.png",
+      "slowestImageTimeMs": 227,
+      "totalImageSizeBytes": 1088473,
+      "imagesDetail": [
+        {
+          "name": "logo-chatgpt-image-sep-17--2026--05-1789650056419.png",
+          "durationMs": 227,
+          "transferSizeBytes": 696677,
+          "initiatorType": "img"
+        },
+        {
+          "name": "photo-1584992236310-6edddc08acff",
+          "durationMs": 13,
+          "transferSizeBytes": 201083,
+          "initiatorType": "img"
+        },
+        {
+          "name": "photo-1556911220-e15b29be8c8f",
+          "durationMs": 12,
+          "transferSizeBytes": 65636,
+          "initiatorType": "img"
+        },
+        {
+          "name": "photo-1590794056226-79ef3a8147e1",
+          "durationMs": 8,
+          "transferSizeBytes": 33929,
+          "initiatorType": "img"
+        },
+        {
+          "name": "photo-1513694203232-719a280e022f",
+          "durationMs": 6,
+          "transferSizeBytes": 19879,
+          "initiatorType": "img"
+        },
+        {
+          "name": "photo-1584308666744-24d5c474f2ae",
+          "durationMs": 6,
+          "transferSizeBytes": 39082,
+          "initiatorType": "img"
+        },
+        {
+          "name": "photo-1556911220-e15b29be8c8f",
+          "durationMs": 3,
+          "transferSizeBytes": 32187,
+          "initiatorType": "img"
+        }
+      ],
+      "resourcesSummary": {
+        "imagesCount": 7,
+        "scriptsCount": 59,
+        "stylesheetsCount": 1,
+        "totalTransferBytes": 4988535
+      },
+      "ttfbMs": 528,
+      "domContentLoadedMs": 5690,
+      "dnsTimeMs": 0,
+      "tcpTimeMs": 0,
+      "navigationType": "navigate",
+      "thresholdMs": 2000,
+      "exceeded": true,
+      "userAgent": "Mozilla/5.0 (X11; CrOS x86_64 14541.0.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36"
+    },
+    {
+      "id": "perf-1790242990470-f07g4",
+      "timestamp": "2026-09-24T09:43:10.470Z",
+      "page": "storefront",
+      "initialLoadTimeMs": 8407,
+      "apiLatencyMs": 511,
+      "apiPayloadSizeBytes": 36533,
+      "imageLoadTimeMs": 149,
+      "imageCount": 11,
+      "slowestImageName": "photo-1556911220-e15b29be8c8f",
+      "slowestImageTimeMs": 574,
+      "totalImageSizeBytes": 1631926,
+      "imagesDetail": [
+        {
+          "name": "photo-1556911220-e15b29be8c8f",
+          "durationMs": 574,
+          "transferSizeBytes": 32487,
+          "initiatorType": "img"
+        },
+        {
+          "name": "photo-1584308666744-24d5c474f2ae",
+          "durationMs": 568,
+          "transferSizeBytes": 39382,
+          "initiatorType": "img"
+        },
+        {
+          "name": "photo-1584992236310-6edddc08acff",
+          "durationMs": 351,
+          "transferSizeBytes": 201383,
+          "initiatorType": "img"
+        },
+        {
+          "name": "photo-1556911220-e15b29be8c8f",
+          "durationMs": 114,
+          "transferSizeBytes": 65936,
+          "initiatorType": "img"
+        },
+        {
+          "name": "photo-1513694203232-719a280e022f",
+          "durationMs": 30,
+          "transferSizeBytes": 19879,
+          "initiatorType": "img"
+        },
+        {
+          "name": "photo-1590794056226-79ef3a8147e1",
+          "durationMs": 3,
+          "transferSizeBytes": 33929,
+          "initiatorType": "img"
+        },
+        {
+          "name": "logo-chatgpt-image-sep-17--2026--05-1789650056419.png",
+          "durationMs": 0,
+          "transferSizeBytes": 696677,
+          "initiatorType": "img"
+        },
+        {
+          "name": "products-2026_08_18_2c174fb94bfebd3e78d-1790151342793.jpg",
+          "durationMs": 0,
+          "transferSizeBytes": 57629,
+          "initiatorType": "img"
+        },
+        {
+          "name": "products-2026_08_18_a59ca5c2fd93b49cfa4-1790151343478.jpg",
+          "durationMs": 0,
+          "transferSizeBytes": 49228,
+          "initiatorType": "img"
+        },
+        {
+          "name": "products-2026_08_18_d5a077010bb7c7767ab-1790151344385.jpg",
+          "durationMs": 0,
+          "transferSizeBytes": 69524,
+          "initiatorType": "img"
+        },
+        {
+          "name": "products-2026_08_15_09ee989b9616f61691d-1790151353896.jpg",
+          "durationMs": 0,
+          "transferSizeBytes": 365872,
+          "initiatorType": "img"
+        }
+      ],
+      "resourcesSummary": {
+        "imagesCount": 11,
+        "scriptsCount": 59,
+        "stylesheetsCount": 1,
+        "totalTransferBytes": 5752511
+      },
+      "ttfbMs": 463,
+      "domContentLoadedMs": 8402,
+      "dnsTimeMs": 0,
+      "tcpTimeMs": 0,
+      "navigationType": "navigate",
+      "thresholdMs": 2000,
+      "exceeded": true,
+      "userAgent": "Mozilla/5.0 (X11; CrOS x86_64 14541.0.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36"
+    },
+    {
+      "id": "perf-1790240696858-l3cu6",
+      "timestamp": "2026-09-24T09:04:56.858Z",
+      "page": "storefront",
+      "initialLoadTimeMs": 15165,
+      "apiLatencyMs": 505,
+      "apiPayloadSizeBytes": 34853,
+      "imageLoadTimeMs": 191,
+      "imageCount": 3,
+      "slowestImageName": "logo-chatgpt-image-sep-17--2026--05-1789650056419.png",
+      "slowestImageTimeMs": 499,
+      "totalImageSizeBytes": 788235,
+      "imagesDetail": [
+        {
+          "name": "logo-chatgpt-image-sep-17--2026--05-1789650056419.png",
+          "durationMs": 499,
+          "transferSizeBytes": 696677,
+          "initiatorType": "img"
+        },
+        {
+          "name": "photo-1590794056226-79ef3a8147e1",
+          "durationMs": 58,
+          "transferSizeBytes": 33929,
+          "initiatorType": "img"
+        },
+        {
+          "name": "products-2026_08_18_2c174fb94bfebd3e78d-1790151342793.jpg",
+          "durationMs": 15,
+          "transferSizeBytes": 57629,
+          "initiatorType": "img"
+        }
+      ],
+      "resourcesSummary": {
+        "imagesCount": 3,
+        "scriptsCount": 59,
+        "stylesheetsCount": 1,
+        "totalTransferBytes": 5414477
+      },
+      "ttfbMs": 544,
+      "domContentLoadedMs": 15157,
+      "dnsTimeMs": 0,
+      "tcpTimeMs": 0,
+      "navigationType": "navigate",
+      "thresholdMs": 2000,
+      "exceeded": true,
+      "userAgent": "Mozilla/5.0 (X11; CrOS x86_64 14541.0.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36"
+    },
+    {
+      "id": "perf-1790239491665-nykpj",
+      "timestamp": "2026-09-24T08:44:51.665Z",
+      "page": "storefront",
+      "initialLoadTimeMs": 8400,
+      "apiLatencyMs": 672,
+      "apiPayloadSizeBytes": 30293,
+      "imageLoadTimeMs": 18,
+      "imageCount": 1,
+      "slowestImageName": "photo-1590794056226-79ef3a8147e1",
+      "slowestImageTimeMs": 18,
+      "totalImageSizeBytes": 33929,
+      "imagesDetail": [
+        {
+          "name": "photo-1590794056226-79ef3a8147e1",
+          "durationMs": 18,
+          "transferSizeBytes": 33929,
+          "initiatorType": "img"
+        }
+      ],
+      "resourcesSummary": {
+        "imagesCount": 1,
+        "scriptsCount": 59,
+        "stylesheetsCount": 1,
+        "totalTransferBytes": 1800085
+      },
+      "ttfbMs": 471,
+      "domContentLoadedMs": 8396,
+      "dnsTimeMs": 0,
+      "tcpTimeMs": 0,
+      "navigationType": "navigate",
+      "thresholdMs": 2000,
+      "exceeded": true,
+      "userAgent": "Mozilla/5.0 (X11; CrOS x86_64 14541.0.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36"
+    },
+    {
+      "id": "perf-1790166878414-9di4t",
+      "timestamp": "2026-09-23T12:34:38.414Z",
+      "page": "storefront",
+      "initialLoadTimeMs": 3100,
+      "apiLatencyMs": 1178,
+      "apiPayloadSizeBytes": 42800,
+      "imageLoadTimeMs": 1612,
+      "imageCount": 14,
+      "slowestImageName": "/uploads/chopper-hero-emerald-forest.webp",
+      "slowestImageTimeMs": 1488,
+      "totalImageSizeBytes": 1420500,
+      "imagesDetail": [
+        {
+          "name": "chopper-hero-emerald-forest.webp",
+          "durationMs": 1488,
+          "transferSizeBytes": 412000,
+          "initiatorType": "img"
+        },
+        {
+          "name": "ammi-express-real-jazzcash-qr.png",
+          "durationMs": 682,
+          "transferSizeBytes": 98400,
+          "initiatorType": "img"
+        },
+        {
+          "name": "chopper-specs-diagram.webp",
+          "durationMs": 961,
+          "transferSizeBytes": 245000,
+          "initiatorType": "img"
+        },
+        {
+          "name": "ammi-express-logo-badge.png",
+          "durationMs": 465,
+          "transferSizeBytes": 45000,
+          "initiatorType": "img"
+        }
+      ],
+      "resourcesSummary": {
+        "imagesCount": 14,
+        "scriptsCount": 5,
+        "stylesheetsCount": 2,
+        "totalTransferBytes": 1980000
+      },
+      "ttfbMs": 465,
+      "domContentLoadedMs": 2015,
+      "navigationType": "simulated_test",
+      "thresholdMs": 2000,
+      "exceeded": true,
+      "userAgent": "Simulated Benchmark Test"
+    },
+    {
+      "id": "perf-1790166873332-p86dd",
+      "timestamp": "2026-09-23T12:34:33.332Z",
+      "page": "storefront",
+      "initialLoadTimeMs": 1420,
+      "apiLatencyMs": 85,
+      "apiPayloadSizeBytes": 45120,
+      "imageLoadTimeMs": 280,
+      "imageCount": 12,
+      "slowestImageName": "chopper-hero-emerald-forest.webp",
+      "slowestImageTimeMs": 510,
+      "totalImageSizeBytes": 1250000,
+      "imagesDetail": [
+        {
+          "name": "chopper-hero-emerald-forest.webp",
+          "durationMs": 510,
+          "transferSizeBytes": 380000,
+          "initiatorType": "img"
+        },
+        {
+          "name": "ammi-express-real-jazzcash-qr.png",
+          "durationMs": 190,
+          "transferSizeBytes": 92000,
+          "initiatorType": "img"
+        }
+      ],
+      "resourcesSummary": {
+        "imagesCount": 12,
+        "scriptsCount": 4,
+        "stylesheetsCount": 1,
+        "totalTransferBytes": 1650000
+      },
+      "navigationType": "navigate",
+      "thresholdMs": 2000,
+      "exceeded": false,
+      "userAgent": "curl/7.88.1"
+    },
+    {
+      "id": "perf-1790166312170-p9kci",
+      "timestamp": "2026-09-23T12:25:12.170Z",
+      "page": "storefront",
+      "initialLoadTimeMs": 2340,
+      "apiLatencyMs": 120,
+      "ttfbMs": 45,
+      "domContentLoadedMs": 890,
+      "navigationType": "navigate",
+      "thresholdMs": 2000,
+      "exceeded": true,
+      "userAgent": "node"
+    }
+  ],
+  "performanceSettings": {
+    "thresholdMs": 1000,
+    "alertEnabled": true,
+    "trackStorefront": true
+  },
+  "analyticsSummary": {
+    "daily": {
+      "2026-10-15": {
+        "date": "2026-10-15",
+        "pageViews": 6,
+        "uniqueVisitors": 1,
+        "totalActionClicks": 0,
+        "codClicks": 0,
+        "whatsappClicks": 0,
+        "completeOrderClicks": 0
+      },
+      "2026-10-18": {
+        "date": "2026-10-18",
+        "pageViews": 2,
+        "uniqueVisitors": 1,
+        "totalActionClicks": 0,
+        "codClicks": 0,
+        "whatsappClicks": 0,
+        "completeOrderClicks": 0
+      }
+    },
+    "visitorFingerprints": {
+      "2026-10-15": [
+        "v_mur06ize_1fg6tjn"
+      ],
+      "2026-10-18": [
+        "v_mur06ize_1fg6tjn"
+      ]
+    },
+    "totals": {
+      "pageViews": 8,
+      "uniqueVisitors": 2,
+      "totalActionClicks": 0,
+      "codClicks": 0,
+      "whatsappClicks": 0,
+      "completeOrderClicks": 0
+    }
+  }
+}

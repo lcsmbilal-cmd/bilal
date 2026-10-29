@@ -1,0 +1,6 @@
+{
+  "name": "Ammi Express",
+  "description": "Ammi Express - Premium single-product e-commerce landing page with instant ordering, Cash on Delivery, and JazzCash QR payment.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

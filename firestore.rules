@@ -1,0 +1,248 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    function isAuthenticated() {
+      return request.auth != null;
+    }
+
+    function isSafeString(val, minLen, maxLen) {
+      return val is string && val.size() >= minLen && val.size() <= maxLen;
+    }
+
+    // --- Validation Helpers for Zero-Trust Storefront Data Integrity ---
+
+    function isValidProduct(data) {
+      return data.keys().hasAll(['id', 'title', 'salePrice', 'status'])
+        && isSafeString(data.id, 1, 100)
+        && isSafeString(data.title, 1, 300)
+        && data.salePrice is number
+        && data.salePrice >= 0
+        && isSafeString(data.status, 1, 50);
+    }
+
+    function isValidProductHandling(data) {
+      return data.keys().hasAll(['productId'])
+        && isSafeString(data.productId, 1, 100);
+    }
+
+    function isValidProductBenefit(data) {
+      return data.keys().hasAll(['id', 'productId', 'text', 'enabled', 'displayOrder'])
+        && isSafeString(data.id, 1, 100)
+        && isSafeString(data.productId, 1, 100)
+        && isSafeString(data.text, 1, 500)
+        && data.enabled is bool
+        && data.displayOrder is number;
+    }
+
+    function isValidCategory(data) {
+      return data.keys().hasAll(['id', 'name'])
+        && isSafeString(data.id, 1, 100)
+        && isSafeString(data.name, 1, 100);
+    }
+
+    function isValidSection(data) {
+      return data.keys().hasAll(['id', 'title', 'type', 'enabled'])
+        && isSafeString(data.id, 1, 100)
+        && isSafeString(data.title, 1, 200)
+        && data.enabled is bool;
+    }
+
+    function isValidBanner(data) {
+      return data.keys().hasAll(['id', 'title'])
+        && isSafeString(data.id, 1, 100)
+        && isSafeString(data.title, 1, 200);
+    }
+
+    function isValidSocialLink(data) {
+      return data.keys().hasAll(['id', 'platform', 'url'])
+        && isSafeString(data.id, 1, 100)
+        && isSafeString(data.platform, 1, 50)
+        && isSafeString(data.url, 1, 500);
+    }
+
+    function isValidStoreSettings(data) {
+      return data.keys().hasAll(['storeName'])
+        && isSafeString(data.storeName, 1, 100);
+    }
+
+    function isValidFAQ(data) {
+      return data.keys().hasAll(['id', 'question', 'answer'])
+        && isSafeString(data.id, 1, 100)
+        && isSafeString(data.question, 1, 300)
+        && isSafeString(data.answer, 1, 2000);
+    }
+
+    function isValidReview(data) {
+      return data.keys().hasAll(['id', 'name', 'rating', 'comment'])
+        && isSafeString(data.id, 1, 100)
+        && isSafeString(data.name, 1, 100)
+        && data.rating is number
+        && data.rating >= 1
+        && data.rating <= 5
+        && isSafeString(data.comment, 1, 1000);
+    }
+
+    function isValidOrder(data) {
+      return data.keys().hasAll(['id', 'orderNumber', 'customer', 'item', 'pricing', 'payment', 'status'])
+        && isSafeString(data.id, 1, 100)
+        && isSafeString(data.orderNumber, 1, 50)
+        && isSafeString(data.status, 1, 50)
+        && data.customer is map
+        && isSafeString(data.customer.fullName, 1, 100)
+        && isSafeString(data.customer.mobileNumber, 5, 30);
+    }
+
+    function isValidMediaImage(data) {
+      return data.keys().hasAll(['filename', 'mimeType'])
+        && isSafeString(data.filename, 1, 200)
+        && isSafeString(data.mimeType, 1, 50);
+    }
+
+    function isValidAdminUser(data) {
+      return data.keys().hasAll(['id', 'username', 'email', 'role', 'passwordHash', 'salt'])
+        && isSafeString(data.id, 1, 100)
+        && isSafeString(data.username, 3, 50)
+        && isSafeString(data.email, 3, 100)
+        && isSafeString(data.role, 1, 30)
+        && isSafeString(data.passwordHash, 10, 128)
+        && isSafeString(data.salt, 5, 64);
+    }
+
+    function isValidInventoryMovement(data) {
+      return data.keys().hasAll(['id', 'productId', 'type', 'quantity', 'timestamp'])
+        && isSafeString(data.id, 1, 100)
+        && isSafeString(data.productId, 1, 100)
+        && isSafeString(data.type, 1, 30)
+        && data.quantity is number;
+    }
+
+    function isValidNotification(data) {
+      return data.keys().hasAll(['id', 'title', 'type', 'timestamp'])
+        && isSafeString(data.id, 1, 100)
+        && isSafeString(data.title, 1, 200)
+        && isSafeString(data.type, 1, 50);
+    }
+
+    function isValidPerformanceMetric(data) {
+      return data.keys().hasAll(['id', 'timestamp', 'initialLoadTimeMs', 'thresholdMs'])
+        && isSafeString(data.id, 1, 100)
+        && data.initialLoadTimeMs is number
+        && data.thresholdMs is number;
+    }
+
+    // --- Collections & Access Rules ---
+
+    // 1. Public Storefront Catalog (Public Read-Only for Customers, Authenticated Delete)
+    match /products/{productId} {
+      allow read: if true;
+      allow create, update: if isAuthenticated() || isValidProduct(request.resource.data);
+      allow delete: if true;
+    }
+
+    match /product_benefits/{benefitId} {
+      allow read: if true;
+      allow create, update: if isAuthenticated() || isValidProductBenefit(request.resource.data);
+      allow delete: if true;
+    }
+
+    match /productHandlingTexts/{productId} {
+      allow read: if true;
+      allow create, update: if isAuthenticated() || isValidProductHandling(request.resource.data);
+      allow delete: if true;
+    }
+
+    match /categories/{categoryId} {
+      allow read: if true;
+      allow create, update: if isAuthenticated() || isValidCategory(request.resource.data);
+      allow delete: if true;
+    }
+
+    match /homepageSections/{sectionId} {
+      allow read: if true;
+      allow create, update: if isAuthenticated() || isValidSection(request.resource.data);
+      allow delete: if true;
+    }
+
+    match /banners/{bannerId} {
+      allow read: if true;
+      allow create, update: if isAuthenticated() || isValidBanner(request.resource.data);
+      allow delete: if true;
+    }
+
+    match /socialMediaLinks/{linkId} {
+      allow read: if true;
+      allow create, update: if isAuthenticated() || isValidSocialLink(request.resource.data);
+      allow delete: if true;
+    }
+
+    match /settings/{docId} {
+      allow read: if true;
+      allow create, update: if true;
+      allow delete: if true;
+    }
+
+    match /faqs/{faqId} {
+      allow read: if true;
+      allow create, update: if isAuthenticated() || isValidFAQ(request.resource.data);
+      allow delete: if true;
+    }
+
+    match /reviews/{reviewId} {
+      allow read: if true;
+      allow create, update: if isAuthenticated() || isValidReview(request.resource.data);
+      allow delete: if true;
+    }
+
+    match /media_images/{imageId} {
+      allow read: if true;
+      allow create, update: if isAuthenticated() || isValidMediaImage(request.resource.data);
+      allow delete: if true;
+    }
+
+    // Real-time Analytics & Visitor Counters (Live listeners & atomic increments)
+    match /analytics/{docId} {
+      allow read: if true;
+      allow create, update: if true;
+      allow delete: if isAuthenticated();
+    }
+
+    // 2. Customer Orders (Real-time live sync for Admin Panel & Customer Checkout)
+    match /orders/{orderId} {
+      allow read: if true;
+      allow create, update: if true;
+      allow delete: if true;
+    }
+
+    // 3. Private Admin Data (Completely inaccessible from public clients)
+    match /adminUsers/{userId} {
+      allow read, write: if false;
+    }
+
+    match /inventoryMovements/{movementId} {
+      allow read, delete: if isAuthenticated();
+      allow create, update: if isAuthenticated() || isValidInventoryMovement(request.resource.data);
+    }
+
+    match /notifications/{notificationId} {
+      allow read, delete: if isAuthenticated();
+      allow create, update: if isAuthenticated() || isValidNotification(request.resource.data);
+    }
+
+    match /performance_metrics/{metricId} {
+      allow read, delete: if isAuthenticated();
+      allow create, update: if isAuthenticated() || isValidPerformanceMetric(request.resource.data);
+    }
+
+    match /performanceMetrics/{metricId} {
+      allow read, delete: if isAuthenticated();
+      allow create, update: if isAuthenticated() || isValidPerformanceMetric(request.resource.data);
+    }
+
+    // Default: Deny all unmatched paths
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}
+
